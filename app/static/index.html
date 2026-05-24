@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تقييم أسعار السيارات — حلب</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0f1419;
+      --surface: #1a2332;
+      --surface2: #243044;
+      --border: #2d3f56;
+      --text: #e8edf4;
+      --muted: #8fa3bc;
+      --accent: #3b82f6;
+      --accent-hover: #2563eb;
+      --very-cheap: #22c55e;
+      --cheap: #84cc16;
+      --fair: #06b6d4;
+      --expensive: #f59e0b;
+      --very-expensive: #ef4444;
+      --radius: 14px;
+      --shadow: 0 8px 32px rgba(0,0,0,.35);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Tajawal', sans-serif;
+      background: var(--bg);
+      background-image:
+        radial-gradient(ellipse 80% 50% at 50% -20%, rgba(59,130,246,.15), transparent),
+        radial-gradient(ellipse 60% 40% at 100% 100%, rgba(6,182,212,.08), transparent);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 3rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 1.85rem;
+      font-weight: 800;
+      margin-bottom: .35rem;
+      background: linear-gradient(135deg, #fff 30%, #93c5fd);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    header p { color: var(--muted); font-size: 1rem; }
+
+    .status-bar {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      margin-top: .75rem;
+      padding: .35rem .85rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      font-size: .85rem;
+    }
+
+    .status-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: #64748b;
+    }
+    .status-dot.ok { background: var(--very-cheap); box-shadow: 0 0 8px var(--very-cheap); }
+    .status-dot.err { background: var(--very-expensive); }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+    }
+
+    @media (max-width: 720px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.35rem;
+      box-shadow: var(--shadow);
+    }
+
+    .card h2 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: #cbd5e1;
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+    }
+
+    .card h2 span { font-size: 1.1rem; }
+
+    .field { margin-bottom: .9rem; }
+
+    label {
+      display: block;
+      font-size: .85rem;
+      font-weight: 500;
+      color: var(--muted);
+      margin-bottom: .35rem;
+    }
+
+    input, select {
+      width: 100%;
+      padding: .65rem .85rem;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      color: var(--text);
+      font-family: inherit;
+      font-size: .95rem;
+      transition: border-color .2s;
+    }
+
+    input:focus, select:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+
+    input[type=range] {
+      padding: 0;
+      accent-color: var(--accent);
+      cursor: pointer;
+    }
+
+    .range-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: .8rem;
+      color: var(--muted);
+      margin-top: .2rem;
+    }
+
+    .range-val {
+      font-weight: 700;
+      color: var(--accent);
+      font-size: .9rem;
+    }
+
+    .row-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: .75rem;
+    }
+
+    .btn {
+      width: 100%;
+      padding: .85rem;
+      margin-top: .5rem;
+      background: linear-gradient(135deg, var(--accent), #6366f1);
+      border: none;
+      border-radius: 12px;
+      color: #fff;
+      font-family: inherit;
+      font-size: 1.05rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform .15s, opacity .15s;
+    }
+
+    .btn:hover { transform: translateY(-1px); opacity: .95; }
+    .btn:active { transform: translateY(0); }
+    .btn:disabled { opacity: .5; cursor: not-allowed; transform: none; }
+
+    .btn-secondary {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      margin-top: .5rem;
+      font-size: .9rem;
+      font-weight: 500;
+    }
+
+    /* ── Results ── */
+    .result-card {
+      display: none;
+      margin-top: 1.25rem;
+    }
+
+    .result-card.visible { display: block; }
+
+    .verdict {
+      text-align: center;
+      padding: 1.5rem;
+      border-radius: var(--radius);
+      margin-bottom: 1rem;
+      border: 2px solid;
+    }
+
+    .verdict .label-ar {
+      font-size: 2rem;
+      font-weight: 800;
+      margin-bottom: .25rem;
+    }
+
+    .verdict .label-en {
+      font-size: .85rem;
+      opacity: .7;
+    }
+
+    .verdict.very_cheap { background: rgba(34,197,94,.12); border-color: var(--very-cheap); color: var(--very-cheap); }
+    .verdict.cheap      { background: rgba(132,204,22,.12); border-color: var(--cheap); color: var(--cheap); }
+    .verdict.fair       { background: rgba(6,182,212,.12); border-color: var(--fair); color: var(--fair); }
+    .verdict.expensive  { background: rgba(245,158,11,.12); border-color: var(--expensive); color: var(--expensive); }
+    .verdict.very_expensive { background: rgba(239,68,68,.12); border-color: var(--very-expensive); color: var(--very-expensive); }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: .75rem;
+    }
+
+    @media (max-width: 520px) {
+      .stats { grid-template-columns: 1fr; }
+    }
+
+    .stat {
+      background: var(--surface2);
+      border-radius: 10px;
+      padding: .85rem;
+      text-align: center;
+    }
+
+    .stat .val {
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .stat .key {
+      font-size: .78rem;
+      color: var(--muted);
+      margin-top: .15rem;
+    }
+
+    .bar-wrap {
+      margin-top: 1rem;
+      padding: .85rem;
+      background: var(--surface2);
+      border-radius: 10px;
+    }
+
+    .bar-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: .82rem;
+      color: var(--muted);
+      margin-bottom: .4rem;
+    }
+
+    .bar-track {
+      height: 10px;
+      background: var(--border);
+      border-radius: 999px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .bar-marker {
+      position: absolute;
+      top: -3px;
+      width: 4px;
+      height: 16px;
+      background: #fff;
+      border-radius: 2px;
+      transform: translateX(-50%);
+      z-index: 2;
+    }
+
+    .bar-fill {
+      height: 100%;
+      border-radius: 999px;
+      transition: width .6s ease;
+    }
+
+    .error-msg {
+      display: none;
+      margin-top: 1rem;
+      padding: .85rem 1rem;
+      background: rgba(239,68,68,.12);
+      border: 1px solid var(--very-expensive);
+      border-radius: 10px;
+      color: #fca5a5;
+      font-size: .9rem;
+    }
+
+    .error-msg.visible { display: block; }
+
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .5rem;
+      margin-top: 1rem;
+      justify-content: center;
+    }
+
+    .legend-item {
+      font-size: .75rem;
+      padding: .25rem .6rem;
+      border-radius: 999px;
+      border: 1px solid;
+    }
+
+    .loading {
+      display: inline-block;
+      width: 18px; height: 18px;
+      border: 2px solid rgba(255,255,255,.3);
+      border-top-color: #fff;
+      border-radius: 50%;
+      animation: spin .7s linear infinite;
+      vertical-align: middle;
+      margin-left: .5rem;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .section-full { grid-column: 1 / -1; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🚗 تقييم أسعار السيارات — سوق حلب</h1>
+      <p>اختبر نموذج Random Forest — أدخل مواصفات السيارة وشوف إذا السعر مناسب</p>
+      <div class="status-bar">
+        <div class="status-dot" id="statusDot"></div>
+        <span id="statusText">جاري التحقق من النموذج...</span>
+      </div>
+    </header>
+
+    <form id="evalForm">
+      <div class="grid">
+        <!-- معلومات أساسية -->
+        <div class="card">
+          <h2><span>📋</span> معلومات السيارة</h2>
+
+          <div class="field">
+            <label for="brand">الماركة</label>
+            <select id="brand" required></select>
+          </div>
+
+          <div class="field">
+            <label for="model">الموديل</label>
+            <select id="model" required></select>
+          </div>
+
+          <div class="row-2">
+            <div class="field">
+              <label for="year">سنة الصنع</label>
+              <input type="number" id="year" min="2000" max="2025" value="2018" required />
+            </div>
+            <div class="field">
+              <label for="price">السعر المطلوب ($)</label>
+              <input type="number" id="price" min="100" step="100" value="12000" required />
+            </div>
+          </div>
+
+          <div class="row-2">
+            <div class="field">
+              <label for="mileage">المسافة المقطوعة (كم)</label>
+              <input type="number" id="mileage" min="0" step="1000" value="85000" />
+            </div>
+            <div class="field">
+              <label for="category">الفئة</label>
+              <select id="category">
+                <option value="sedan">سيدان</option>
+                <option value="suv">دفع رباعي</option>
+                <option value="hatchback">هاتشباك</option>
+                <option value="pickup">بيك أب</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- مواصفات تقنية -->
+        <div class="card">
+          <h2><span>⚙️</span> المواصفات التقنية</h2>
+
+          <div class="row-2">
+            <div class="field">
+              <label for="engineType">نوع المحرك</label>
+              <select id="engineType">
+                <option value="gasoline">بنزين</option>
+                <option value="diesel">ديزل</option>
+                <option value="hybrid">هايبرد</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="transmission">ناقل الحركة</label>
+              <select id="transmission">
+                <option value="automatic">أوتوماتيك</option>
+                <option value="manual">يدوي</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row-2">
+            <div class="field">
+              <label for="engineDisplacement">سعة المحرك (cc)</label>
+              <input type="number" id="engineDisplacement" min="800" step="100" value="1600" />
+            </div>
+            <div class="field">
+              <label for="horsepower">القوة (حصان)</label>
+              <input type="number" id="horsepower" min="50" step="5" value="130" />
+            </div>
+          </div>
+
+          <div class="row-2">
+            <div class="field">
+              <label for="driveType">نظام الدفع</label>
+              <select id="driveType">
+                <option value="FWD">دفع أمامي</option>
+                <option value="RWD">دفع خلفي</option>
+                <option value="AWD">AWD</option>
+                <option value="4WD">4WD</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="seatingCapacity">عدد المقاعد</label>
+              <input type="number" id="seatingCapacity" min="2" max="9" value="5" />
+            </div>
+          </div>
+        </div>
+
+        <!-- حالة السيارة -->
+        <div class="card section-full">
+          <h2><span>🔧</span> حالة السيارة (0 — 100)</h2>
+
+          <div class="grid">
+            <div class="field">
+              <label for="motorCondition">حالة المحرك</label>
+              <input type="range" id="motorCondition" min="0" max="100" step="10" value="70" />
+              <div class="range-row"><span>سيء</span><span class="range-val" data-for="motorCondition">70</span><span>ممتاز</span></div>
+            </div>
+
+            <div class="field">
+              <label for="electricalCondition">الكهرباء</label>
+              <input type="range" id="electricalCondition" min="0" max="100" step="10" value="70" />
+              <div class="range-row"><span>سيء</span><span class="range-val" data-for="electricalCondition">70</span><span>ممتاز</span></div>
+            </div>
+
+            <div class="field">
+              <label for="oilCondition">الزيت</label>
+              <input type="range" id="oilCondition" min="0" max="100" step="10" value="70" />
+              <div class="range-row"><span>سيء</span><span class="range-val" data-for="oilCondition">70</span><span>ممتاز</span></div>
+            </div>
+
+            <div class="field">
+              <label for="chassisCondition">الهيكل</label>
+              <input type="range" id="chassisCondition" min="0" max="100" step="10" value="70" />
+              <div class="range-row"><span>سيء</span><span class="range-val" data-for="chassisCondition">70</span><span>ممتاز</span></div>
+            </div>
+
+            <div class="field">
+              <label for="tiresCondition">الإطارات</label>
+              <input type="range" id="tiresCondition" min="0" max="100" step="10" value="70" />
+              <div class="range-row"><span>سيء</span><span class="range-val" data-for="tiresCondition">70</span><span>ممتاز</span></div>
+            </div>
+
+            <div class="field">
+              <label for="accidentHistoryType">تاريخ الحوادث</label>
+              <select id="accidentHistoryType">
+                <option value="none">بدون حوادث</option>
+                <option value="half_cut">قطع جزئي</option>
+                <option value="full_cut">قطع كامل</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field" style="margin-top:.5rem">
+            <label>
+              <input type="checkbox" id="engineSmoke" style="width:auto;margin-left:.5rem" />
+              المحرك يدخّن
+            </label>
+          </div>
+
+          <button type="submit" class="btn" id="submitBtn">🔍 قيّم السعر</button>
+          <button type="button" class="btn btn-secondary" id="fillSample">📌 مثال: Toyota Corolla 2018</button>
+        </div>
+      </div>
+    </form>
+
+    <div class="error-msg" id="errorMsg"></div>
+
+    <div class="result-card card" id="resultCard">
+      <h2><span>📊</span> نتيجة التقييم</h2>
+
+      <div class="verdict" id="verdict">
+        <div class="label-ar" id="verdictAr">—</div>
+        <div class="label-en" id="verdictEn">—</div>
+      </div>
+
+      <div class="stats">
+        <div class="stat">
+          <div class="val" id="statListed">—</div>
+          <div class="key">السعر المُدخل</div>
+        </div>
+        <div class="stat">
+          <div class="val" id="statFair">—</div>
+          <div class="key">السعر العادل (AI)</div>
+        </div>
+        <div class="stat">
+          <div class="val" id="statDiff">—</div>
+          <div class="key">الفرق</div>
+        </div>
+      </div>
+
+      <div class="bar-wrap">
+        <div class="bar-label">
+          <span>رخيصة جداً</span>
+          <span id="barPct">—</span>
+          <span>غالية جداً</span>
+        </div>
+        <div class="bar-track">
+          <div class="bar-fill" id="barFill" style="width:50%"></div>
+          <div class="bar-marker" id="barMarker" style="left:50%"></div>
+        </div>
+      </div>
+
+      <div class="legend">
+        <span class="legend-item" style="color:var(--very-cheap);border-color:var(--very-cheap)">&lt;75% رخيصة جداً</span>
+        <span class="legend-item" style="color:var(--cheap);border-color:var(--cheap)">75-90% رخيصة</span>
+        <span class="legend-item" style="color:var(--fair);border-color:var(--fair)">90-110% مناسبة</span>
+        <span class="legend-item" style="color:var(--expensive);border-color:var(--expensive)">110-130% غالية</span>
+        <span class="legend-item" style="color:var(--very-expensive);border-color:var(--very-expensive)">&gt;130% غالية جداً</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const API_BASE = 'http://localhost:8002';
+    let catalog = {};
+
+    const LABEL_COLORS = {
+      very_cheap: '#22c55e',
+      cheap: '#84cc16',
+      fair: '#06b6d4',
+      expensive: '#f59e0b',
+      very_expensive: '#ef4444',
+    };
+
+    const LABEL_AR = {
+      very_cheap: 'رخيصة جداً',
+      cheap: 'رخيصة',
+      fair: 'مناسبة',
+      expensive: 'غالية',
+      very_expensive: 'غالية جداً',
+    };
+
+    async function checkHealth() {
+      const dot = document.getElementById('statusDot');
+      const txt = document.getElementById('statusText');
+      try {
+        const res = await fetch(`${API_BASE}/health`);
+        const data = await res.json();
+        if (data.modelLoaded) {
+          dot.className = 'status-dot ok';
+          txt.textContent = '✅ النموذج جاهز — سوق حلب';
+        } else {
+          dot.className = 'status-dot err';
+          txt.textContent = '⚠️ النموذج غير مدرب — شغّل train_model.py';
+        }
+      } catch {
+        dot.className = 'status-dot err';
+        txt.textContent = '❌ الخدمة غير متصلة';
+      }
+    }
+
+    async function loadCatalog() {
+      const res = await fetch(`${API_BASE}/catalog`);
+      catalog = await res.json();
+      const brandSel = document.getElementById('brand');
+      brandSel.innerHTML = Object.keys(catalog).map(b =>
+        `<option value="${b}">${b}</option>`
+      ).join('');
+      updateModels();
+    }
+
+    function updateModels() {
+      const brand = document.getElementById('brand').value;
+      const modelSel = document.getElementById('model');
+      const models = catalog[brand] || {};
+      modelSel.innerHTML = Object.keys(models).map(m =>
+        `<option value="${m}">${m}</option>`
+      ).join('');
+      fillFromCatalog();
+    }
+
+    function fillFromCatalog() {
+      const brand = document.getElementById('brand').value;
+      const model = document.getElementById('model').value;
+      const spec = catalog[brand]?.[model];
+      if (!spec) return;
+      document.getElementById('year').value = spec.year_ref;
+      document.getElementById('category').value = spec.category;
+      document.getElementById('engineDisplacement').value = spec.cc;
+      document.getElementById('horsepower').value = spec.hp;
+      document.getElementById('transmission').value = spec.trans;
+      document.getElementById('price').value = spec.base;
+    }
+
+    document.querySelectorAll('input[type=range]').forEach(slider => {
+      slider.addEventListener('input', () => {
+        const span = document.querySelector(`[data-for="${slider.id}"]`);
+        if (span) span.textContent = slider.value;
+      });
+    });
+
+    document.getElementById('brand').addEventListener('change', updateModels);
+    document.getElementById('model').addEventListener('change', fillFromCatalog);
+
+    document.getElementById('fillSample').addEventListener('click', () => {
+      document.getElementById('brand').value = 'Toyota';
+      updateModels();
+      document.getElementById('model').value = 'Corolla';
+      fillFromCatalog();
+      document.getElementById('price').value = 15000;
+      document.getElementById('mileage').value = 90000;
+      document.getElementById('motorCondition').value = 80;
+      document.querySelector('[data-for="motorCondition"]').textContent = '80';
+    });
+
+    function fmt(n) {
+      return '$' + Math.round(n).toLocaleString('en-US');
+    }
+
+    function showError(msg) {
+      const el = document.getElementById('errorMsg');
+      el.textContent = msg;
+      el.classList.add('visible');
+    }
+
+    function hideError() {
+      document.getElementById('errorMsg').classList.remove('visible');
+    }
+
+    document.getElementById('evalForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      hideError();
+      const btn = document.getElementById('submitBtn');
+      btn.disabled = true;
+      btn.innerHTML = 'جاري التقييم<span class="loading"></span>';
+
+      const payload = {
+        brand: document.getElementById('brand').value,
+        model: document.getElementById('model').value,
+        year: +document.getElementById('year').value,
+        price: +document.getElementById('price').value,
+        mileage: +document.getElementById('mileage').value,
+        category: document.getElementById('category').value,
+        engineType: document.getElementById('engineType').value,
+        engineDisplacement: +document.getElementById('engineDisplacement').value,
+        horsepower: +document.getElementById('horsepower').value,
+        transmission: document.getElementById('transmission').value,
+        driveType: document.getElementById('driveType').value,
+        seatingCapacity: +document.getElementById('seatingCapacity').value,
+        motorCondition: document.getElementById('motorCondition').value,
+        electricalCondition: document.getElementById('electricalCondition').value,
+        oilCondition: document.getElementById('oilCondition').value,
+        chassisCondition: document.getElementById('chassisCondition').value,
+        tiresCondition: document.getElementById('tiresCondition').value,
+        engineSmokeLevel: document.getElementById('engineSmoke').checked ? '100' : '0',
+        accidentHistoryType: document.getElementById('accidentHistoryType').value,
+        accidentHistoryLevel: document.getElementById('accidentHistoryType').value === 'none' ? '100' : '50',
+        currency: 'USD',
+      };
+
+      try {
+        const res = await fetch(`${API_BASE}/evaluate`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+
+        if (!res.ok) {
+          const err = await res.json().catch(() => ({}));
+          throw new Error(err.detail || 'حدث خطأ أثناء التقييم');
+        }
+
+        const data = await res.json();
+        const card = document.getElementById('resultCard');
+        card.classList.add('visible');
+
+        const verdict = document.getElementById('verdict');
+        verdict.className = 'verdict ' + data.label;
+        document.getElementById('verdictAr').textContent = data.labelAr;
+        document.getElementById('verdictEn').textContent = data.label;
+
+        document.getElementById('statListed').textContent = fmt(data.listedPrice);
+        document.getElementById('statFair').textContent = fmt(data.fairPrice);
+
+        const diffSign = data.difference >= 0 ? '+' : '';
+        document.getElementById('statDiff').textContent =
+          diffSign + fmt(data.difference) + ' (' + diffSign + data.differencePercent + '%)';
+        document.getElementById('statDiff').style.color = LABEL_COLORS[data.label];
+
+        const ratio = data.priceRatio;
+        const pct = Math.min(100, Math.max(0, ((ratio - 0.5) / 1.5) * 100));
+        document.getElementById('barPct').textContent = (ratio * 100).toFixed(0) + '% من السعر العادل';
+        document.getElementById('barFill').style.width = pct + '%';
+        document.getElementById('barFill').style.background = LABEL_COLORS[data.label];
+        document.getElementById('barMarker').style.left = pct + '%';
+
+        card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      } catch (err) {
+        showError(err.message);
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = '🔍 قيّم السعر';
+      }
+    });
+
+    checkHealth();
+    loadCatalog();
+  </script>
+</body>
+</html>
