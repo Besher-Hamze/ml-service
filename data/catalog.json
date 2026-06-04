@@ -1,0 +1,9272 @@
+{
+  "Audi": {
+    "A3": {
+      "category": "sedan",
+      "year_ref": 2017,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 13200,
+      "count": 9,
+      "min_year": 2016,
+      "max_year": 2020,
+      "by_year": {
+        "2017": 12250,
+        "2016": 12500,
+        "2020": 17500
+      }
+    },
+    "A4": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9700,
+      "count": 28,
+      "min_year": 2002,
+      "max_year": 2015,
+      "by_year": {
+        "2014": 9500,
+        "2006": 6400,
+        "2011": 9700,
+        "2013": 9000,
+        "2010": 10100,
+        "2007": 7500,
+        "2015": 10200,
+        "2002": 5200,
+        "2012": 10200,
+        "2008": 9000
+      }
+    },
+    "A5": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10800,
+      "count": 19,
+      "min_year": 2009,
+      "max_year": 2018,
+      "by_year": {
+        "2018": 17500,
+        "2012": 10000,
+        "2013": 10500,
+        "2014": 12000,
+        "2011": 11750,
+        "2016": 11900,
+        "2009": 10100,
+        "2010": 9500
+      }
+    },
+    "A6": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12000,
+      "count": 52,
+      "min_year": 2000,
+      "max_year": 2020,
+      "by_year": {
+        "2011": 11500,
+        "2006": 8500,
+        "2013": 10650,
+        "2016": 15000,
+        "2014": 12000,
+        "2012": 12500,
+        "2005": 6700,
+        "2008": 9100,
+        "2007": 8000,
+        "2015": 11800,
+        "2020": 35000,
+        "2010": 10250,
+        "2017": 21000,
+        "2018": 19500,
+        "2009": 8400,
+        "2000": 5700
+      }
+    },
+    "A7": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 13500,
+      "count": 17,
+      "min_year": 2012,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 13500,
+        "2013": 12100,
+        "2012": 14750
+      }
+    },
+    "A8": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 13000,
+      "count": 19,
+      "min_year": 2007,
+      "max_year": 2018,
+      "by_year": {
+        "2012": 13800,
+        "2016": 22000,
+        "2011": 11100,
+        "2018": 30000,
+        "2015": 12600,
+        "2017": 19000,
+        "2014": 14250,
+        "2007": 8600,
+        "2008": 9900,
+        "2010": 11300
+      }
+    },
+    "Q2": {
+      "category": "sedan",
+      "year_ref": 2018,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 14000,
+      "count": 1,
+      "min_year": 2018,
+      "max_year": 2018,
+      "by_year": {
+        "2018": 14000
+      }
+    },
+    "Q3": {
+      "category": "sedan",
+      "year_ref": 2018,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 17500,
+      "count": 3,
+      "min_year": 2018,
+      "max_year": 2020,
+      "by_year": {
+        "2018": 16000,
+        "2020": 18000
+      }
+    },
+    "Q5": {
+      "category": "suv",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12000,
+      "count": 16,
+      "min_year": 2012,
+      "max_year": 2017,
+      "by_year": {
+        "2012": 12000,
+        "2013": 11700,
+        "2014": 11800,
+        "2017": 14000,
+        "2016": 13500,
+        "2015": 14450
+      }
+    },
+    "Q7": {
+      "category": "suv",
+      "year_ref": 2014,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 13500,
+      "count": 13,
+      "min_year": 2008,
+      "max_year": 2017,
+      "by_year": {
+        "2008": 13000,
+        "2013": 13700,
+        "2017": 25500,
+        "2015": 15500,
+        "2014": 13500
+      }
+    },
+    "QUATTRO": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 9000,
+      "count": 1,
+      "min_year": 2010,
+      "max_year": 2010,
+      "by_year": {
+        "2010": 9000
+      }
+    },
+    "RS7": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 35000,
+      "count": 1,
+      "min_year": 2015,
+      "max_year": 2015,
+      "by_year": {
+        "2015": 35000
+      }
+    },
+    "S4": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 11200,
+      "count": 2,
+      "min_year": 2011,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 10600
+      }
+    },
+    "TT": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10200,
+      "count": 3,
+      "min_year": 2006,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 10200,
+        "2010": 10200,
+        "2006": 7000
+      }
+    }
+  },
+  "BMW": {
+    "116": {
+      "category": "sedan",
+      "year_ref": 2008,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 6700,
+      "count": 2,
+      "min_year": 2006,
+      "max_year": 2008,
+      "by_year": {
+        "2008": 6700,
+        "2006": 6500
+      }
+    },
+    "118": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8800,
+      "count": 2,
+      "min_year": 2005,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 8800,
+        "2005": 6500
+      }
+    },
+    "316": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 9000,
+      "count": 6,
+      "min_year": 1992,
+      "max_year": 2011,
+      "by_year": {
+        "2009": 6700,
+        "2010": 9000,
+        "1992": 5200,
+        "2011": 9200
+      }
+    },
+    "318": {
+      "category": "sedan",
+      "year_ref": 2002,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 7000,
+      "count": 1,
+      "min_year": 2002,
+      "max_year": 2002,
+      "by_year": {
+        "2002": 7000
+      }
+    },
+    "320": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9700,
+      "count": 34,
+      "min_year": 2006,
+      "max_year": 2018,
+      "by_year": {
+        "2013": 11200,
+        "2006": 7500,
+        "2012": 10050,
+        "2018": 15000,
+        "2010": 8850,
+        "2011": 8500,
+        "2014": 9700,
+        "2015": 12500,
+        "2008": 10900,
+        "2016": 12000,
+        "2007": 8700
+      }
+    },
+    "320i": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 11000,
+      "count": 1,
+      "min_year": 2011,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 11000
+      }
+    },
+    "325": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 11200,
+      "count": 1,
+      "min_year": 2010,
+      "max_year": 2010,
+      "by_year": {
+        "2010": 11200
+      }
+    },
+    "328": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 11000,
+      "count": 13,
+      "min_year": 2009,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 11000,
+        "2013": 10850,
+        "2011": 11000,
+        "2012": 12000,
+        "2009": 13500
+      }
+    },
+    "330": {
+      "category": "sedan",
+      "year_ref": 2017,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 18000,
+      "count": 3,
+      "min_year": 2011,
+      "max_year": 2021,
+      "by_year": {
+        "2011": 9200,
+        "2017": 18000,
+        "2021": 24000
+      }
+    },
+    "335": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 16000,
+      "count": 1,
+      "min_year": 2014,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 16000
+      }
+    },
+    "420": {
+      "category": "sedan",
+      "year_ref": 2018,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 16300,
+      "count": 2,
+      "min_year": 2017,
+      "max_year": 2018,
+      "by_year": {
+        "2017": 15000,
+        "2018": 16300
+      }
+    },
+    "428": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12500,
+      "count": 2,
+      "min_year": 2015,
+      "max_year": 2015,
+      "by_year": {
+        "2015": 12500
+      }
+    },
+    "430": {
+      "category": "sedan",
+      "year_ref": 2018,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 17500,
+      "count": 3,
+      "min_year": 2018,
+      "max_year": 2019,
+      "by_year": {
+        "2018": 20750,
+        "2019": 15500
+      }
+    },
+    "520": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12000,
+      "count": 61,
+      "min_year": 2008,
+      "max_year": 2020,
+      "by_year": {
+        "2014": 14250,
+        "2018": 22500,
+        "2008": 9200,
+        "2015": 14500,
+        "2011": 11000,
+        "2012": 11950,
+        "2020": 15500,
+        "2013": 12000,
+        "2016": 14500,
+        "2009": 9000,
+        "2010": 8700
+      }
+    },
+    "523": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 11200,
+      "count": 9,
+      "min_year": 2011,
+      "max_year": 2012,
+      "by_year": {
+        "2011": 11100,
+        "2012": 11500
+      }
+    },
+    "525": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9000,
+      "count": 9,
+      "min_year": 2006,
+      "max_year": 2017,
+      "by_year": {
+        "2008": 7250,
+        "2013": 12400,
+        "2017": 18200,
+        "2009": 8900,
+        "2006": 7500,
+        "2012": 10100
+      }
+    },
+    "528": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 13500,
+      "count": 28,
+      "min_year": 2008,
+      "max_year": 2015,
+      "by_year": {
+        "2013": 13500,
+        "2012": 13500,
+        "2014": 14500,
+        "2011": 11950,
+        "2015": 16000,
+        "2008": 11700
+      }
+    },
+    "530": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 13000,
+      "count": 7,
+      "min_year": 2011,
+      "max_year": 2018,
+      "by_year": {
+        "2018": 18000,
+        "2011": 12600,
+        "2012": 9500,
+        "2017": 28000
+      }
+    },
+    "535": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 12500,
+      "count": 11,
+      "min_year": 2011,
+      "max_year": 2015,
+      "by_year": {
+        "2011": 12500,
+        "2013": 14250,
+        "2012": 12500,
+        "2015": 13200
+      }
+    },
+    "640": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 15000,
+      "count": 5,
+      "min_year": 2013,
+      "max_year": 2014,
+      "by_year": {
+        "2013": 15000,
+        "2014": 15100
+      }
+    },
+    "720": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 13000,
+      "count": 1,
+      "min_year": 2013,
+      "max_year": 2013,
+      "by_year": {
+        "2013": 13000
+      }
+    },
+    "730": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 12500,
+      "count": 13,
+      "min_year": 2005,
+      "max_year": 2018,
+      "by_year": {
+        "2015": 14000,
+        "2012": 10500,
+        "2018": 25000,
+        "2014": 12500,
+        "2017": 24500,
+        "2016": 20500,
+        "2005": 6500
+      }
+    },
+    "735": {
+      "category": "sedan",
+      "year_ref": 1993,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 4200,
+      "count": 1,
+      "min_year": 1993,
+      "max_year": 1993,
+      "by_year": {
+        "1993": 4200
+      }
+    },
+    "740": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 12300,
+      "count": 16,
+      "min_year": 2002,
+      "max_year": 2019,
+      "by_year": {
+        "2010": 11900,
+        "2012": 12900,
+        "2006": 8000,
+        "2011": 12400,
+        "2002": 4500,
+        "2019": 22500,
+        "2016": 22000
+      }
+    },
+    "745": {
+      "category": "sedan",
+      "year_ref": 2004,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 7000,
+      "count": 1,
+      "min_year": 2004,
+      "max_year": 2004,
+      "by_year": {
+        "2004": 7000
+      }
+    },
+    "750": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 12500,
+      "count": 14,
+      "min_year": 2006,
+      "max_year": 2018,
+      "by_year": {
+        "2012": 12250,
+        "2010": 10200,
+        "2006": 7400,
+        "2016": 28000,
+        "2018": 18000
+      }
+    },
+    "E36": {
+      "category": "sedan",
+      "year_ref": 1991,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 5200,
+      "count": 3,
+      "min_year": 1991,
+      "max_year": 1994,
+      "by_year": {
+        "1994": 5200,
+        "1991": 5100
+      }
+    },
+    "E46": {
+      "category": "sedan",
+      "year_ref": 2002,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 7500,
+      "count": 1,
+      "min_year": 2002,
+      "max_year": 2002,
+      "by_year": {
+        "2002": 7500
+      }
+    },
+    "F30": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10500,
+      "count": 1,
+      "min_year": 2012,
+      "max_year": 2012,
+      "by_year": {
+        "2012": 10500
+      }
+    },
+    "GT": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12500,
+      "count": 6,
+      "min_year": 2011,
+      "max_year": 2017,
+      "by_year": {
+        "2014": 12500,
+        "2013": 11000,
+        "2017": 15500,
+        "2011": 14000
+      }
+    },
+    "M2": {
+      "category": "sedan",
+      "year_ref": 2024,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 100000,
+      "count": 1,
+      "min_year": 2024,
+      "max_year": 2024,
+      "by_year": {
+        "2024": 100000
+      }
+    },
+    "M5": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 25500,
+      "count": 1,
+      "min_year": 2013,
+      "max_year": 2013,
+      "by_year": {
+        "2013": 25500
+      }
+    },
+    "M6": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 30000,
+      "count": 1,
+      "min_year": 2014,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 30000
+      }
+    },
+    "X1": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10500,
+      "count": 11,
+      "min_year": 2011,
+      "max_year": 2016,
+      "by_year": {
+        "2013": 9700,
+        "2015": 11000,
+        "2012": 14000,
+        "2014": 10000,
+        "2011": 10500,
+        "2016": 11000
+      }
+    },
+    "X3": {
+      "category": "suv",
+      "year_ref": 2012,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 9500,
+      "count": 3,
+      "min_year": 2008,
+      "max_year": 2013,
+      "by_year": {
+        "2012": 9500,
+        "2013": 11000,
+        "2008": 8900
+      }
+    },
+    "X4": {
+      "category": "sedan",
+      "year_ref": 2024,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 100000,
+      "count": 1,
+      "min_year": 2024,
+      "max_year": 2024,
+      "by_year": {
+        "2024": 100000
+      }
+    },
+    "X5": {
+      "category": "suv",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12700,
+      "count": 26,
+      "min_year": 2007,
+      "max_year": 2019,
+      "by_year": {
+        "2017": 22000,
+        "2014": 17250,
+        "2012": 11200,
+        "2007": 8850,
+        "2010": 11000,
+        "2015": 29000,
+        "2019": 29500,
+        "2011": 12500,
+        "2016": 24000,
+        "2009": 9250,
+        "2013": 12800
+      }
+    },
+    "X6": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 15000,
+      "count": 16,
+      "min_year": 2011,
+      "max_year": 2018,
+      "by_year": {
+        "2013": 10500,
+        "2016": 21000,
+        "2011": 11500,
+        "2015": 21500,
+        "2018": 30000,
+        "2014": 12800,
+        "2012": 14100
+      }
+    }
+  },
+  "BYD": {
+    "DESTROYR": {
+      "category": "sedan",
+      "year_ref": 2025,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 16000,
+      "count": 2,
+      "min_year": 2025,
+      "max_year": 2025,
+      "by_year": {
+        "2025": 15600
+      }
+    },
+    "EV TT": {
+      "category": "sedan",
+      "year_ref": 2024,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 16200,
+      "count": 1,
+      "min_year": 2024,
+      "max_year": 2024,
+      "by_year": {
+        "2024": 16200
+      }
+    },
+    "F0": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 3800,
+      "count": 1,
+      "min_year": 2010,
+      "max_year": 2010,
+      "by_year": {
+        "2010": 3800
+      }
+    },
+    "F3": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 5600,
+      "count": 5,
+      "min_year": 2010,
+      "max_year": 2013,
+      "by_year": {
+        "2013": 5600,
+        "2011": 5500,
+        "2010": 5950,
+        "2012": 4700
+      }
+    },
+    "SONG L": {
+      "category": "sedan",
+      "year_ref": 2025,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 20000,
+      "count": 1,
+      "min_year": 2025,
+      "max_year": 2025,
+      "by_year": {
+        "2025": 20000
+      }
+    },
+    "SONG Plus": {
+      "category": "sedan",
+      "year_ref": 2023,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 21000,
+      "count": 1,
+      "min_year": 2023,
+      "max_year": 2023,
+      "by_year": {
+        "2023": 21000
+      }
+    },
+    "Song pro": {
+      "category": "sedan",
+      "year_ref": 2025,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 18000,
+      "count": 1,
+      "min_year": 2025,
+      "max_year": 2025,
+      "by_year": {
+        "2025": 18000
+      }
+    }
+  },
+  "Brilliance": {
+    "FRV": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 5700,
+      "count": 2,
+      "min_year": 2009,
+      "max_year": 2010,
+      "by_year": {
+        "2009": 5000,
+        "2010": 5700
+      }
+    },
+    "V6": {
+      "category": "sedan",
+      "year_ref": 2026,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 17200,
+      "count": 1,
+      "min_year": 2026,
+      "max_year": 2026,
+      "by_year": {
+        "2026": 17200
+      }
+    },
+    "V7": {
+      "category": "sedan",
+      "year_ref": 2025,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12200,
+      "count": 1,
+      "min_year": 2025,
+      "max_year": 2025,
+      "by_year": {
+        "2025": 12200
+      }
+    },
+    "Zhonghua": {
+      "category": "sedan",
+      "year_ref": 2008,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 5400,
+      "count": 1,
+      "min_year": 2008,
+      "max_year": 2008,
+      "by_year": {
+        "2008": 5400
+      }
+    }
+  },
+  "CHANA": {
+    "Gala": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 3200,
+      "count": 3,
+      "min_year": 2008,
+      "max_year": 2010,
+      "by_year": {
+        "2010": 3200,
+        "2008": 3200
+      }
+    },
+    "Star": {
+      "category": "sedan",
+      "year_ref": 2009,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 4500,
+      "count": 6,
+      "min_year": 2006,
+      "max_year": 2010,
+      "by_year": {
+        "2010": 4750,
+        "2009": 4500,
+        "2008": 3800,
+        "2006": 3500
+      }
+    },
+    "mini van": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 4700,
+      "count": 2,
+      "min_year": 2006,
+      "max_year": 2012,
+      "by_year": {
+        "2006": 4700,
+        "2012": 4700
+      }
+    }
+  },
+  "CHANGAN": {
+    "AUTO Z": {
+      "category": "sedan",
+      "year_ref": 2019,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8300,
+      "count": 1,
+      "min_year": 2019,
+      "max_year": 2019,
+      "by_year": {
+        "2019": 8300
+      }
+    },
+    "Levan": {
+      "category": "sedan",
+      "year_ref": 2008,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 6000,
+      "count": 1,
+      "min_year": 2008,
+      "max_year": 2008,
+      "by_year": {
+        "2008": 6000
+      }
+    },
+    "Q25": {
+      "category": "sedan",
+      "year_ref": 2019,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8500,
+      "count": 2,
+      "min_year": 2018,
+      "max_year": 2019,
+      "by_year": {
+        "2018": 7500,
+        "2019": 8500
+      }
+    },
+    "Q35": {
+      "category": "sedan",
+      "year_ref": 2017,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 7000,
+      "count": 1,
+      "min_year": 2017,
+      "max_year": 2017,
+      "by_year": {
+        "2017": 7000
+      }
+    },
+    "suzuki": {
+      "category": "sedan",
+      "year_ref": 2006,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 4000,
+      "count": 1,
+      "min_year": 2006,
+      "max_year": 2006,
+      "by_year": {
+        "2006": 4000
+      }
+    }
+  },
+  "CHERY": {
+    "Arrizo 6": {
+      "category": "sedan",
+      "year_ref": 2020,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10000,
+      "count": 2,
+      "min_year": 2020,
+      "max_year": 2020,
+      "by_year": {
+        "2020": 9950
+      }
+    },
+    "Jetour T2": {
+      "category": "sedan",
+      "year_ref": 2025,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 33000,
+      "count": 2,
+      "min_year": 2025,
+      "max_year": 2025,
+      "by_year": {
+        "2025": 31500
+      }
+    },
+    "QQ6": {
+      "category": "sedan",
+      "year_ref": 2008,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 3000,
+      "count": 1,
+      "min_year": 2008,
+      "max_year": 2008,
+      "by_year": {
+        "2008": 3000
+      }
+    },
+    "S20": {
+      "category": "sedan",
+      "year_ref": 2003,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 3200,
+      "count": 5,
+      "min_year": 2001,
+      "max_year": 2007,
+      "by_year": {
+        "2001": 3200,
+        "2002": 4000,
+        "2003": 2850,
+        "2007": 3100
+      }
+    },
+    "S25": {
+      "category": "sedan",
+      "year_ref": 2007,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "manual",
+      "base": 2500,
+      "count": 1,
+      "min_year": 2007,
+      "max_year": 2007,
+      "by_year": {
+        "2007": 2500
+      }
+    },
+    "TIGGO": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "manual",
+      "base": 5500,
+      "count": 1,
+      "min_year": 2010,
+      "max_year": 2010,
+      "by_year": {
+        "2010": 5500
+      }
+    },
+    "Tiggo 2": {
+      "category": "sedan",
+      "year_ref": 2020,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 7200,
+      "count": 5,
+      "min_year": 2011,
+      "max_year": 2020,
+      "by_year": {
+        "2020": 9500,
+        "2019": 7000,
+        "2011": 6500
+      }
+    }
+  },
+  "CHRYSLER": {
+    "200c": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10500,
+      "count": 1,
+      "min_year": 2015,
+      "max_year": 2015,
+      "by_year": {
+        "2015": 10500
+      }
+    },
+    "300C": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 9400,
+      "count": 11,
+      "min_year": 2008,
+      "max_year": 2020,
+      "by_year": {
+        "2013": 11450,
+        "2012": 8850,
+        "2020": 13200,
+        "2015": 9100,
+        "2018": 13500,
+        "2008": 6500
+      }
+    },
+    "300S": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 13500,
+      "count": 3,
+      "min_year": 2015,
+      "max_year": 2015,
+      "by_year": {
+        "2015": 13500
+      }
+    },
+    "Executive": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8700,
+      "count": 1,
+      "min_year": 2012,
+      "max_year": 2012,
+      "by_year": {
+        "2012": 8700
+      }
+    },
+    "RAND VOYAGER": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 8500,
+      "count": 1,
+      "min_year": 2011,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 8500
+      }
+    }
+  },
+  "CITROEN": {
+    "C3": {
+      "category": "sedan",
+      "year_ref": 2006,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 5200,
+      "count": 1,
+      "min_year": 2006,
+      "max_year": 2006,
+      "by_year": {
+        "2006": 5200
+      }
+    },
+    "C4": {
+      "category": "sedan",
+      "year_ref": 2007,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 5700,
+      "count": 6,
+      "min_year": 2005,
+      "max_year": 2009,
+      "by_year": {
+        "2006": 4950,
+        "2009": 5450,
+        "2007": 5800,
+        "2005": 4700
+      }
+    },
+    "C5": {
+      "category": "sedan",
+      "year_ref": 2009,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 7500,
+      "count": 1,
+      "min_year": 2009,
+      "max_year": 2009,
+      "by_year": {
+        "2009": 7500
+      }
+    }
+  },
+  "Cadillac": {
+    "ATS": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9200,
+      "count": 1,
+      "min_year": 2015,
+      "max_year": 2015,
+      "by_year": {
+        "2015": 9200
+      }
+    },
+    "BLS": {
+      "category": "sedan",
+      "year_ref": 2008,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 6700,
+      "count": 2,
+      "min_year": 2007,
+      "max_year": 2008,
+      "by_year": {
+        "2007": 6500,
+        "2008": 6700
+      }
+    },
+    "Ct4": {
+      "category": "sedan",
+      "year_ref": 2020,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 17500,
+      "count": 1,
+      "min_year": 2020,
+      "max_year": 2020,
+      "by_year": {
+        "2020": 17500
+      }
+    },
+    "Ct5": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 12300,
+      "count": 4,
+      "min_year": 2011,
+      "max_year": 2016,
+      "by_year": {
+        "2016": 11500,
+        "2013": 12500,
+        "2011": 12150
+      }
+    },
+    "Escalade": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 26000,
+      "count": 4,
+      "min_year": 2004,
+      "max_year": 2016,
+      "by_year": {
+        "2004": 10000,
+        "2013": 13500,
+        "2015": 26000,
+        "2016": 31500
+      }
+    },
+    "SRX": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 10000,
+      "count": 1,
+      "min_year": 2011,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 10000
+      }
+    },
+    "Xt5": {
+      "category": "sedan",
+      "year_ref": 2017,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 16500,
+      "count": 5,
+      "min_year": 2017,
+      "max_year": 2019,
+      "by_year": {
+        "2017": 18250,
+        "2019": 15500
+      }
+    }
+  },
+  "Chevrolet": {
+    "Aveo": {
+      "category": "sedan",
+      "year_ref": 2008,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 5800,
+      "count": 3,
+      "min_year": 2006,
+      "max_year": 2009,
+      "by_year": {
+        "2008": 6100,
+        "2009": 5500,
+        "2006": 5800
+      }
+    },
+    "Blazer": {
+      "category": "sedan",
+      "year_ref": 2022,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 26000,
+      "count": 1,
+      "min_year": 2022,
+      "max_year": 2022,
+      "by_year": {
+        "2022": 26000
+      }
+    },
+    "Camaro": {
+      "category": "sedan",
+      "year_ref": 2017,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 14000,
+      "count": 7,
+      "min_year": 2011,
+      "max_year": 2023,
+      "by_year": {
+        "2016": 13000,
+        "2018": 13500,
+        "2011": 10000,
+        "2017": 15150,
+        "2023": 24900
+      }
+    },
+    "Captiva": {
+      "category": "sedan",
+      "year_ref": 2008,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8500,
+      "count": 10,
+      "min_year": 2005,
+      "max_year": 2024,
+      "by_year": {
+        "2008": 7100,
+        "2005": 9000,
+        "2023": 15600,
+        "2017": 10800,
+        "2007": 6800,
+        "2024": 17000,
+        "2009": 8000
+      }
+    },
+    "Cruze": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 7800,
+      "count": 42,
+      "min_year": 2009,
+      "max_year": 2018,
+      "by_year": {
+        "2011": 8500,
+        "2018": 10800,
+        "2013": 8500,
+        "2009": 6700,
+        "2010": 7000,
+        "2014": 8350,
+        "2017": 13500,
+        "2012": 7300,
+        "2016": 8700
+      }
+    },
+    "Equinox": {
+      "category": "sedan",
+      "year_ref": 2025,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 28000,
+      "count": 2,
+      "min_year": 2018,
+      "max_year": 2025,
+      "by_year": {
+        "2018": 12700,
+        "2025": 28000
+      }
+    },
+    "Impala": {
+      "category": "sedan",
+      "year_ref": 2018,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 9500,
+      "count": 10,
+      "min_year": 2016,
+      "max_year": 2020,
+      "by_year": {
+        "2020": 10900,
+        "2019": 8500,
+        "2016": 8500,
+        "2018": 8500,
+        "2017": 9750
+      }
+    },
+    "LOMINA": {
+      "category": "sedan",
+      "year_ref": 2007,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 6200,
+      "count": 1,
+      "min_year": 2007,
+      "max_year": 2007,
+      "by_year": {
+        "2007": 6200
+      }
+    },
+    "Lacetti": {
+      "category": "sedan",
+      "year_ref": 2007,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "manual",
+      "base": 11700,
+      "count": 2,
+      "min_year": 2006,
+      "max_year": 2007,
+      "by_year": {
+        "2007": 6000,
+        "2006": 11700
+      }
+    },
+    "Malibu": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 10000,
+      "count": 22,
+      "min_year": 2012,
+      "max_year": 2024,
+      "by_year": {
+        "2017": 11000,
+        "2014": 8500,
+        "2018": 10500,
+        "2015": 8600,
+        "2013": 9350,
+        "2012": 9600,
+        "2024": 14700
+      }
+    },
+    "Montana": {
+      "category": "sedan",
+      "year_ref": 2006,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 4200,
+      "count": 3,
+      "min_year": 2006,
+      "max_year": 2007,
+      "by_year": {
+        "2006": 4750,
+        "2007": 4200
+      }
+    },
+    "Monza": {
+      "category": "sedan",
+      "year_ref": 2022,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 15000,
+      "count": 1,
+      "min_year": 2022,
+      "max_year": 2022,
+      "by_year": {
+        "2022": 15000
+      }
+    },
+    "Optra": {
+      "category": "sedan",
+      "year_ref": 2009,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 5800,
+      "count": 1,
+      "min_year": 2009,
+      "max_year": 2009,
+      "by_year": {
+        "2009": 5800
+      }
+    },
+    "Orlando": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 11200,
+      "count": 4,
+      "min_year": 2012,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 8900,
+        "2012": 10750,
+        "2013": 11200
+      }
+    },
+    "SUBURBAN": {
+      "category": "sedan",
+      "year_ref": 2020,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 30000,
+      "count": 1,
+      "min_year": 2020,
+      "max_year": 2020,
+      "by_year": {
+        "2020": 30000
+      }
+    },
+    "Silverado": {
+      "category": "pickup",
+      "year_ref": 2018,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 24000,
+      "count": 5,
+      "min_year": 2013,
+      "max_year": 2022,
+      "by_year": {
+        "2018": 24000,
+        "2022": 39500,
+        "2013": 15500
+      }
+    },
+    "Sonic": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 7500,
+      "count": 2,
+      "min_year": 2012,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 7500,
+        "2012": 6500
+      }
+    },
+    "Spark": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 6800,
+      "count": 13,
+      "min_year": 2009,
+      "max_year": 2019,
+      "by_year": {
+        "2011": 6000,
+        "2013": 7200,
+        "2012": 6500,
+        "2014": 6900,
+        "2009": 5200,
+        "2019": 8500,
+        "2015": 7500
+      }
+    },
+    "Tahoe": {
+      "category": "suv",
+      "year_ref": 2017,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 24500,
+      "count": 9,
+      "min_year": 2008,
+      "max_year": 2021,
+      "by_year": {
+        "2020": 30000,
+        "2019": 24250,
+        "2008": 9900,
+        "2015": 13000,
+        "2011": 13000,
+        "2017": 25500,
+        "2016": 28000,
+        "2021": 39000
+      }
+    },
+    "Tosca": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8000,
+      "count": 2,
+      "min_year": 2008,
+      "max_year": 2011,
+      "by_year": {
+        "2008": 7000,
+        "2011": 8000
+      }
+    },
+    "Trail Blazer": {
+      "category": "sedan",
+      "year_ref": 2023,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 14200,
+      "count": 1,
+      "min_year": 2023,
+      "max_year": 2023,
+      "by_year": {
+        "2023": 14200
+      }
+    },
+    "Traverse": {
+      "category": "suv",
+      "year_ref": 2014,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 11300,
+      "count": 4,
+      "min_year": 2011,
+      "max_year": 2014,
+      "by_year": {
+        "2011": 8500,
+        "2012": 11300,
+        "2014": 11350
+      }
+    },
+    "Trax": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10500,
+      "count": 19,
+      "min_year": 2014,
+      "max_year": 2016,
+      "by_year": {
+        "2014": 10300,
+        "2016": 10800,
+        "2015": 10300
+      }
+    }
+  },
+  "DAEWOO": {
+    "ALPHEON": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 9000,
+      "count": 1,
+      "min_year": 2011,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 9000
+      }
+    },
+    "Cielo": {
+      "category": "sedan",
+      "year_ref": 2002,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 4000,
+      "count": 2,
+      "min_year": 1995,
+      "max_year": 2002,
+      "by_year": {
+        "1995": 2700,
+        "2002": 4000
+      }
+    },
+    "LAB5": {
+      "category": "sedan",
+      "year_ref": 1998,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 3000,
+      "count": 1,
+      "min_year": 1998,
+      "max_year": 1998,
+      "by_year": {
+        "1998": 3000
+      }
+    },
+    "Lacetti": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 6900,
+      "count": 13,
+      "min_year": 2009,
+      "max_year": 2012,
+      "by_year": {
+        "2010": 6950,
+        "2012": 8500,
+        "2009": 6075
+      }
+    },
+    "Leganza": {
+      "category": "sedan",
+      "year_ref": 1999,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 2500,
+      "count": 1,
+      "min_year": 1999,
+      "max_year": 1999,
+      "by_year": {
+        "1999": 2500
+      }
+    },
+    "Matiz": {
+      "category": "hatchback",
+      "year_ref": 2002,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 4000,
+      "count": 1,
+      "min_year": 2002,
+      "max_year": 2002,
+      "by_year": {
+        "2002": 4000
+      }
+    },
+    "Prince": {
+      "category": "sedan",
+      "year_ref": 2007,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 3500,
+      "count": 1,
+      "min_year": 2007,
+      "max_year": 2007,
+      "by_year": {
+        "2007": 3500
+      }
+    },
+    "Racer": {
+      "category": "sedan",
+      "year_ref": 1993,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 2200,
+      "count": 2,
+      "min_year": 1993,
+      "max_year": 1993,
+      "by_year": {
+        "1993": 2000
+      }
+    },
+    "ZAZ": {
+      "category": "sedan",
+      "year_ref": 2004,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 1400,
+      "count": 1,
+      "min_year": 2004,
+      "max_year": 2004,
+      "by_year": {
+        "2004": 1400
+      }
+    }
+  },
+  "DFSK": {
+    "DONG FENG": {
+      "category": "sedan",
+      "year_ref": 2026,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 14200,
+      "count": 2,
+      "min_year": 2026,
+      "max_year": 2026,
+      "by_year": {
+        "2026": 13850
+      }
+    },
+    "FENGON GLORY 600": {
+      "category": "sedan",
+      "year_ref": 2025,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 13700,
+      "count": 2,
+      "min_year": 2025,
+      "max_year": 2025,
+      "by_year": {
+        "2025": 11300
+      }
+    },
+    "K01s": {
+      "category": "sedan",
+      "year_ref": 2025,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8700,
+      "count": 1,
+      "min_year": 2025,
+      "max_year": 2025,
+      "by_year": {
+        "2025": 8700
+      }
+    }
+  },
+  "Dacia": {
+    "1310 Break": {
+      "category": "sedan",
+      "year_ref": 1994,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 1700,
+      "count": 1,
+      "min_year": 1994,
+      "max_year": 1994,
+      "by_year": {
+        "1994": 1700
+      }
+    },
+    "Solenza": {
+      "category": "sedan",
+      "year_ref": 2003,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "manual",
+      "base": 4950,
+      "count": 1,
+      "min_year": 2003,
+      "max_year": 2003,
+      "by_year": {
+        "2003": 4950
+      }
+    },
+    "Super Nova": {
+      "category": "sedan",
+      "year_ref": 2002,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 2200,
+      "count": 1,
+      "min_year": 2002,
+      "max_year": 2002,
+      "by_year": {
+        "2002": 2200
+      }
+    }
+  },
+  "Daihatsu": {
+    "Delta": {
+      "category": "sedan",
+      "year_ref": 2005,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 9000,
+      "count": 1,
+      "min_year": 2005,
+      "max_year": 2005,
+      "by_year": {
+        "2005": 9000
+      }
+    },
+    "Teryos": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9200,
+      "count": 2,
+      "min_year": 2007,
+      "max_year": 2015,
+      "by_year": {
+        "2007": 7500,
+        "2015": 9200
+      }
+    }
+  },
+  "Dodge": {
+    "Caravan": {
+      "category": "suv",
+      "year_ref": 2018,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 12500,
+      "count": 1,
+      "min_year": 2018,
+      "max_year": 2018,
+      "by_year": {
+        "2018": 12500
+      }
+    },
+    "Challenger": {
+      "category": "sedan",
+      "year_ref": 2019,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 17800,
+      "count": 7,
+      "min_year": 2010,
+      "max_year": 2020,
+      "by_year": {
+        "2010": 12000,
+        "2020": 18000,
+        "2019": 18400,
+        "2018": 16500
+      }
+    },
+    "Charger": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 9700,
+      "count": 17,
+      "min_year": 2012,
+      "max_year": 2020,
+      "by_year": {
+        "2014": 9000,
+        "2012": 9450,
+        "2013": 11000,
+        "2018": 17000,
+        "2019": 16850,
+        "2015": 9500,
+        "2020": 17500
+      }
+    },
+    "Durango": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12200,
+      "count": 3,
+      "min_year": 2012,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 12450,
+        "2012": 9400
+      }
+    },
+    "Journey": {
+      "category": "sedan",
+      "year_ref": 2020,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 16000,
+      "count": 2,
+      "min_year": 2018,
+      "max_year": 2020,
+      "by_year": {
+        "2018": 12200,
+        "2020": 16000
+      }
+    },
+    "Ram": {
+      "category": "pickup",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 19500,
+      "count": 4,
+      "min_year": 2012,
+      "max_year": 2015,
+      "by_year": {
+        "2015": 19500,
+        "2012": 18500
+      }
+    }
+  },
+  "Dongfeng": {
+    "DFM": {
+      "category": "sedan",
+      "year_ref": 2020,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 7800,
+      "count": 5,
+      "min_year": 2017,
+      "max_year": 2022,
+      "by_year": {
+        "2022": 13000,
+        "2020": 7800,
+        "2017": 7700
+      }
+    }
+  },
+  "FAW": {
+    "B70": {
+      "category": "sedan",
+      "year_ref": 2019,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 7700,
+      "count": 2,
+      "min_year": 2004,
+      "max_year": 2019,
+      "by_year": {
+        "2019": 7700,
+        "2004": 2000
+      }
+    },
+    "RAND": {
+      "category": "sedan",
+      "year_ref": 1998,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 20000,
+      "count": 1,
+      "min_year": 1998,
+      "max_year": 1998,
+      "by_year": {
+        "1998": 20000
+      }
+    },
+    "Suzuki": {
+      "category": "sedan",
+      "year_ref": 2004,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 6500,
+      "count": 1,
+      "min_year": 2004,
+      "max_year": 2004,
+      "by_year": {
+        "2004": 6500
+      }
+    },
+    "X40": {
+      "category": "sedan",
+      "year_ref": 2020,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8500,
+      "count": 1,
+      "min_year": 2020,
+      "max_year": 2020,
+      "by_year": {
+        "2020": 8500
+      }
+    },
+    "X80": {
+      "category": "sedan",
+      "year_ref": 2020,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9200,
+      "count": 1,
+      "min_year": 2020,
+      "max_year": 2020,
+      "by_year": {
+        "2020": 9200
+      }
+    }
+  },
+  "FEAT": {
+    "BRAVO": {
+      "category": "suv",
+      "year_ref": 2009,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 4500,
+      "count": 1,
+      "min_year": 2009,
+      "max_year": 2009,
+      "by_year": {
+        "2009": 4500
+      }
+    },
+    "Lancia Delta": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 7700,
+      "count": 1,
+      "min_year": 2010,
+      "max_year": 2010,
+      "by_year": {
+        "2010": 7700
+      }
+    },
+    "Linea": {
+      "category": "sedan",
+      "year_ref": 2009,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 4500,
+      "count": 3,
+      "min_year": 2009,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 4800,
+        "2009": 4500
+      }
+    },
+    "Marea": {
+      "category": "sedan",
+      "year_ref": 2001,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 3700,
+      "count": 1,
+      "min_year": 2001,
+      "max_year": 2001,
+      "by_year": {
+        "2001": 3700
+      }
+    },
+    "Palio": {
+      "category": "sedan",
+      "year_ref": 2001,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 2700,
+      "count": 3,
+      "min_year": 2000,
+      "max_year": 2001,
+      "by_year": {
+        "2001": 2600,
+        "2000": 2700
+      }
+    },
+    "Sahin": {
+      "category": "sedan",
+      "year_ref": 2002,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 3200,
+      "count": 1,
+      "min_year": 2002,
+      "max_year": 2002,
+      "by_year": {
+        "2002": 3200
+      }
+    }
+  },
+  "Ford": {
+    "EDGE": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 11000,
+      "count": 7,
+      "min_year": 2012,
+      "max_year": 2017,
+      "by_year": {
+        "2013": 11200,
+        "2014": 9700,
+        "2012": 10450,
+        "2017": 13700
+      }
+    },
+    "ESCAPE": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 10500,
+      "count": 3,
+      "min_year": 2014,
+      "max_year": 2021,
+      "by_year": {
+        "2014": 10500,
+        "2021": 14700,
+        "2015": 10500
+      }
+    },
+    "Expedition": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 11500,
+      "count": 3,
+      "min_year": 2011,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 11500
+      }
+    },
+    "Explorer": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12200,
+      "count": 10,
+      "min_year": 2011,
+      "max_year": 2018,
+      "by_year": {
+        "2015": 12200,
+        "2014": 11500,
+        "2011": 10700,
+        "2017": 14850,
+        "2018": 13000,
+        "2012": 9800
+      }
+    },
+    "F150": {
+      "category": "pickup",
+      "year_ref": 2016,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 15000,
+      "count": 5,
+      "min_year": 2013,
+      "max_year": 2021,
+      "by_year": {
+        "2016": 15000,
+        "2013": 10000,
+        "2019": 22500,
+        "2021": 39000
+      }
+    },
+    "F250": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 23000,
+      "count": 1,
+      "min_year": 2014,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 23000
+      }
+    },
+    "FUSION": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 11600,
+      "count": 1,
+      "min_year": 2015,
+      "max_year": 2015,
+      "by_year": {
+        "2015": 11600
+      }
+    },
+    "Fiesta": {
+      "category": "sedan",
+      "year_ref": 2006,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 4200,
+      "count": 3,
+      "min_year": 2006,
+      "max_year": 2007,
+      "by_year": {
+        "2006": 4100,
+        "2007": 4200
+      }
+    },
+    "Focus": {
+      "category": "sedan",
+      "year_ref": 2009,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 7200,
+      "count": 14,
+      "min_year": 2004,
+      "max_year": 2018,
+      "by_year": {
+        "2018": 9250,
+        "2015": 8050,
+        "2008": 5500,
+        "2006": 7000,
+        "2007": 6100,
+        "2009": 6200,
+        "2004": 4700,
+        "2016": 7500,
+        "2014": 7500
+      }
+    },
+    "Fusion": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10000,
+      "count": 3,
+      "min_year": 2015,
+      "max_year": 2020,
+      "by_year": {
+        "2015": 9850,
+        "2020": 15000
+      }
+    },
+    "Mondeo": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9700,
+      "count": 2,
+      "min_year": 2010,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 9700,
+        "2010": 7700
+      }
+    },
+    "Monterey": {
+      "category": "sedan",
+      "year_ref": 2001,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 5200,
+      "count": 1,
+      "min_year": 2001,
+      "max_year": 2001,
+      "by_year": {
+        "2001": 5200
+      }
+    },
+    "Mustang": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 13000,
+      "count": 12,
+      "min_year": 2010,
+      "max_year": 2024,
+      "by_year": {
+        "2015": 13000,
+        "2021": 18000,
+        "2013": 12500,
+        "2010": 12000,
+        "2019": 22000,
+        "2014": 11500,
+        "2016": 18000,
+        "2024": 30000
+      }
+    },
+    "Raptor": {
+      "category": "sedan",
+      "year_ref": 2017,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 48000,
+      "count": 1,
+      "min_year": 2017,
+      "max_year": 2017,
+      "by_year": {
+        "2017": 48000
+      }
+    },
+    "Taurus": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 8000,
+      "count": 7,
+      "min_year": 2011,
+      "max_year": 2019,
+      "by_year": {
+        "2019": 12500,
+        "2011": 8500,
+        "2013": 7500
+      }
+    },
+    "Territory": {
+      "category": "sedan",
+      "year_ref": 2024,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 23000,
+      "count": 1,
+      "min_year": 2024,
+      "max_year": 2024,
+      "by_year": {
+        "2024": 23000
+      }
+    },
+    "Titanium": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 8000,
+      "count": 3,
+      "min_year": 2008,
+      "max_year": 2016,
+      "by_year": {
+        "2008": 8000,
+        "2016": 12200,
+        "2010": 5200
+      }
+    },
+    "Transit": {
+      "category": "sedan",
+      "year_ref": 2019,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 16000,
+      "count": 4,
+      "min_year": 2008,
+      "max_year": 2020,
+      "by_year": {
+        "2019": 18700,
+        "2008": 14250,
+        "2020": 14000
+      }
+    }
+  },
+  "GMC": {
+    "Acadia": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 12200,
+      "count": 13,
+      "min_year": 2010,
+      "max_year": 2021,
+      "by_year": {
+        "2010": 10500,
+        "2019": 19500,
+        "2018": 15500,
+        "2013": 8850,
+        "2012": 11100,
+        "2015": 11250,
+        "2021": 52000
+      }
+    },
+    "Denali": {
+      "category": "sedan",
+      "year_ref": 2016,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 19000,
+      "count": 3,
+      "min_year": 2015,
+      "max_year": 2020,
+      "by_year": {
+        "2020": 19000,
+        "2015": 11500,
+        "2016": 23000
+      }
+    },
+    "Sierra": {
+      "category": "pickup",
+      "year_ref": 2019,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 41000,
+      "count": 2,
+      "min_year": 2012,
+      "max_year": 2019,
+      "by_year": {
+        "2012": 11000,
+        "2019": 41000
+      }
+    },
+    "Terrain": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 12500,
+      "count": 7,
+      "min_year": 2012,
+      "max_year": 2018,
+      "by_year": {
+        "2012": 7000,
+        "2018": 15500,
+        "2013": 11500,
+        "2015": 13000
+      }
+    },
+    "Yukon": {
+      "category": "suv",
+      "year_ref": 2010,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 11000,
+      "count": 5,
+      "min_year": 2005,
+      "max_year": 2023,
+      "by_year": {
+        "2009": 10500,
+        "2005": 10000,
+        "2010": 11000,
+        "2023": 55000,
+        "2019": 33000
+      }
+    }
+  },
+  "Geely": {
+    "CK 1": {
+      "category": "sedan",
+      "year_ref": 2006,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 4200,
+      "count": 2,
+      "min_year": 2005,
+      "max_year": 2006,
+      "by_year": {
+        "2005": 2800,
+        "2006": 4200
+      }
+    },
+    "EC 80": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 5700,
+      "count": 1,
+      "min_year": 2011,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 5700
+      }
+    },
+    "EMGRAND": {
+      "category": "sedan",
+      "year_ref": 2025,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10500,
+      "count": 1,
+      "min_year": 2025,
+      "max_year": 2025,
+      "by_year": {
+        "2025": 10500
+      }
+    },
+    "HQ203A": {
+      "category": "sedan",
+      "year_ref": 2006,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 2200,
+      "count": 2,
+      "min_year": 2005,
+      "max_year": 2006,
+      "by_year": {
+        "2005": 2100,
+        "2006": 2200
+      }
+    },
+    "MAPLE": {
+      "category": "sedan",
+      "year_ref": 2009,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "manual",
+      "base": 2700,
+      "count": 1,
+      "min_year": 2009,
+      "max_year": 2009,
+      "by_year": {
+        "2009": 2700
+      }
+    },
+    "MK1": {
+      "category": "sedan",
+      "year_ref": 2008,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 4200,
+      "count": 2,
+      "min_year": 2008,
+      "max_year": 2008,
+      "by_year": {
+        "2008": 4000
+      }
+    },
+    "PANDA": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 3700,
+      "count": 1,
+      "min_year": 2011,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 3700
+      }
+    }
+  },
+  "Genesis": {
+    "380": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10200,
+      "count": 4,
+      "min_year": 2010,
+      "max_year": 2011,
+      "by_year": {
+        "2010": 9250,
+        "2011": 9100
+      }
+    },
+    "BH320": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 11500,
+      "count": 2,
+      "min_year": 2009,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 11500,
+        "2009": 11200
+      }
+    },
+    "BH330": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 10100,
+      "count": 11,
+      "min_year": 2009,
+      "max_year": 2011,
+      "by_year": {
+        "2009": 10000,
+        "2010": 11000,
+        "2011": 9700
+      }
+    },
+    "Coupe": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 9000,
+      "count": 8,
+      "min_year": 2007,
+      "max_year": 2014,
+      "by_year": {
+        "2010": 8850,
+        "2007": 7200,
+        "2009": 9000,
+        "2013": 12200,
+        "2014": 10000
+      }
+    },
+    "EQ900": {
+      "category": "sedan",
+      "year_ref": 2016,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 16700,
+      "count": 1,
+      "min_year": 2016,
+      "max_year": 2016,
+      "by_year": {
+        "2016": 16700
+      }
+    },
+    "G 330": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 11500,
+      "count": 6,
+      "min_year": 2008,
+      "max_year": 2016,
+      "by_year": {
+        "2015": 12000,
+        "2008": 8650,
+        "2016": 14000,
+        "2013": 11500,
+        "2012": 11200
+      }
+    },
+    "G 70": {
+      "category": "sedan",
+      "year_ref": 2019,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 18000,
+      "count": 7,
+      "min_year": 2009,
+      "max_year": 2022,
+      "by_year": {
+        "2022": 24000,
+        "2019": 20500,
+        "2013": 11000,
+        "2009": 10500,
+        "2014": 10000,
+        "2021": 24000
+      }
+    },
+    "G 80": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 13000,
+      "count": 63,
+      "min_year": 2008,
+      "max_year": 2021,
+      "by_year": {
+        "2015": 13500,
+        "2008": 9800,
+        "2018": 16600,
+        "2017": 14700,
+        "2013": 11100,
+        "2019": 21000,
+        "2011": 8700,
+        "2009": 9000,
+        "2016": 16000,
+        "2012": 11750,
+        "2021": 30000,
+        "2014": 10000,
+        "2010": 9350
+      }
+    },
+    "G 90": {
+      "category": "sedan",
+      "year_ref": 2017,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 20500,
+      "count": 2,
+      "min_year": 2015,
+      "max_year": 2017,
+      "by_year": {
+        "2017": 20500,
+        "2015": 17500
+      }
+    }
+  },
+  "Great Wall": {
+    "Coolbear": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 5800,
+      "count": 2,
+      "min_year": 2010,
+      "max_year": 2010,
+      "by_year": {
+        "2010": 5400
+      }
+    }
+  },
+  "HAFEI": {
+    "Roy": {
+      "category": "sedan",
+      "year_ref": 2006,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "manual",
+      "base": 4200,
+      "count": 1,
+      "min_year": 2006,
+      "max_year": 2006,
+      "by_year": {
+        "2006": 4200
+      }
+    },
+    "mini van": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 4000,
+      "count": 2,
+      "min_year": 2010,
+      "max_year": 2010,
+      "by_year": {
+        "2010": 3850
+      }
+    }
+  },
+  "HONDA": {
+    "Accord": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12200,
+      "count": 22,
+      "min_year": 1995,
+      "max_year": 2024,
+      "by_year": {
+        "2012": 8500,
+        "2013": 12000,
+        "2016": 10850,
+        "2011": 12200,
+        "2014": 9700,
+        "2007": 7500,
+        "2009": 10500,
+        "2017": 13000,
+        "1995": 2500,
+        "2019": 16500,
+        "2024": 26000,
+        "2020": 14200,
+        "2008": 12350
+      }
+    },
+    "CR-V": {
+      "category": "sedan",
+      "year_ref": 2025,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 26000,
+      "count": 2,
+      "min_year": 2025,
+      "max_year": 2025,
+      "by_year": {
+        "2025": 26000
+      }
+    },
+    "Civic": {
+      "category": "sedan",
+      "year_ref": 2016,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 12000,
+      "count": 6,
+      "min_year": 2011,
+      "max_year": 2022,
+      "by_year": {
+        "2016": 10500,
+        "2020": 16200,
+        "2022": 15000,
+        "2011": 9500
+      }
+    },
+    "Jazz": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 6200,
+      "count": 1,
+      "min_year": 2013,
+      "max_year": 2013,
+      "by_year": {
+        "2013": 6200
+      }
+    },
+    "Odyssey": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 15200,
+      "count": 5,
+      "min_year": 1999,
+      "max_year": 2019,
+      "by_year": {
+        "2015": 15100,
+        "1999": 5000,
+        "2019": 21750
+      }
+    },
+    "Pilot": {
+      "category": "sedan",
+      "year_ref": 2017,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 22500,
+      "count": 4,
+      "min_year": 2011,
+      "max_year": 2021,
+      "by_year": {
+        "2017": 22500,
+        "2021": 28000,
+        "2011": 12000,
+        "2014": 15000
+      }
+    },
+    "e.NS1": {
+      "category": "sedan",
+      "year_ref": 2023,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 19200,
+      "count": 3,
+      "min_year": 2023,
+      "max_year": 2023,
+      "by_year": {
+        "2023": 19200
+      }
+    }
+  },
+  "Hyundai": {
+    "Accent": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8500,
+      "count": 23,
+      "min_year": 1998,
+      "max_year": 2020,
+      "by_year": {
+        "2006": 5200,
+        "2012": 8500,
+        "2011": 8500,
+        "2017": 8800,
+        "2014": 8600,
+        "2020": 9500,
+        "2005": 4800,
+        "2016": 10200,
+        "2013": 9000,
+        "1998": 2500
+      }
+    },
+    "Aslan": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 12500,
+      "count": 5,
+      "min_year": 2014,
+      "max_year": 2015,
+      "by_year": {
+        "2015": 12750,
+        "2014": 12500
+      }
+    },
+    "Avanti": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 9500,
+      "count": 45,
+      "min_year": 2007,
+      "max_year": 2021,
+      "by_year": {
+        "2018": 8550,
+        "2012": 10400,
+        "2021": 12800,
+        "2013": 11000,
+        "2011": 10250,
+        "2008": 8700,
+        "2009": 8450,
+        "2007": 7250,
+        "2017": 9800,
+        "2014": 8500,
+        "2020": 15500,
+        "2015": 11000,
+        "2016": 12100,
+        "2010": 8700
+      }
+    },
+    "Azera": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 11400,
+      "count": 142,
+      "min_year": 2004,
+      "max_year": 2022,
+      "by_year": {
+        "2011": 11000,
+        "2021": 23750,
+        "2007": 7950,
+        "2013": 11800,
+        "2008": 8200,
+        "2014": 12250,
+        "2015": 11500,
+        "2012": 11800,
+        "2016": 12000,
+        "2019": 10359,
+        "2009": 8800,
+        "2010": 9500,
+        "2022": 22000,
+        "2004": 8700,
+        "2006": 9500,
+        "2018": 15000
+      }
+    },
+    "Cirato": {
+      "category": "sedan",
+      "year_ref": 2009,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9500,
+      "count": 1,
+      "min_year": 2009,
+      "max_year": 2009,
+      "by_year": {
+        "2009": 9500
+      }
+    },
+    "Custo": {
+      "category": "sedan",
+      "year_ref": 2025,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 29000,
+      "count": 1,
+      "min_year": 2025,
+      "max_year": 2025,
+      "by_year": {
+        "2025": 29000
+      }
+    },
+    "Elantra": {
+      "category": "sedan",
+      "year_ref": 2016,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 10500,
+      "count": 65,
+      "min_year": 2002,
+      "max_year": 2026,
+      "by_year": {
+        "2022": 16600,
+        "2011": 10750,
+        "2021": 12600,
+        "2013": 9700,
+        "2015": 10000,
+        "2017": 10350,
+        "2019": 10000,
+        "2016": 8800,
+        "2012": 10850,
+        "2025": 17200,
+        "2020": 12000,
+        "2023": 13700,
+        "2014": 12000,
+        "2026": 15200,
+        "2002": 6200,
+        "2018": 10400,
+        "2006": 6200,
+        "2010": 8300,
+        "2024": 17500
+      }
+    },
+    "Equus": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 10800,
+      "count": 28,
+      "min_year": 2009,
+      "max_year": 2016,
+      "by_year": {
+        "2016": 17000,
+        "2012": 10700,
+        "2010": 10800,
+        "2013": 12000,
+        "2011": 10350,
+        "2015": 13300,
+        "2009": 10500
+      }
+    },
+    "Genesis": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10500,
+      "count": 2,
+      "min_year": 2010,
+      "max_year": 2013,
+      "by_year": {
+        "2013": 9200,
+        "2010": 10500
+      }
+    },
+    "H1": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 14000,
+      "count": 62,
+      "min_year": 1999,
+      "max_year": 2023,
+      "by_year": {
+        "2018": 19000,
+        "2000": 9500,
+        "2015": 13500,
+        "2011": 12000,
+        "2019": 16750,
+        "2021": 18000,
+        "2008": 10500,
+        "2013": 15250,
+        "2023": 22250,
+        "2009": 13000,
+        "2010": 12200,
+        "2016": 15500,
+        "1999": 6000,
+        "2012": 14850,
+        "2014": 14000,
+        "2003": 7500,
+        "2017": 14750
+      }
+    },
+    "Ioniq": {
+      "category": "sedan",
+      "year_ref": 2019,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 13500,
+      "count": 4,
+      "min_year": 2016,
+      "max_year": 2019,
+      "by_year": {
+        "2019": 11500,
+        "2016": 13500
+      }
+    },
+    "Kona": {
+      "category": "sedan",
+      "year_ref": 2019,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 14000,
+      "count": 3,
+      "min_year": 2015,
+      "max_year": 2022,
+      "by_year": {
+        "2022": 14000,
+        "2019": 14000,
+        "2015": 15000
+      }
+    },
+    "MISTRA": {
+      "category": "sedan",
+      "year_ref": 2017,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 11500,
+      "count": 1,
+      "min_year": 2017,
+      "max_year": 2017,
+      "by_year": {
+        "2017": 11500
+      }
+    },
+    "Mufasa": {
+      "category": "sedan",
+      "year_ref": 2024,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 24000,
+      "count": 1,
+      "min_year": 2024,
+      "max_year": 2024,
+      "by_year": {
+        "2024": 24000
+      }
+    },
+    "Palisade": {
+      "category": "sedan",
+      "year_ref": 2020,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 32000,
+      "count": 18,
+      "min_year": 2019,
+      "max_year": 2024,
+      "by_year": {
+        "2019": 32500,
+        "2021": 28500,
+        "2022": 28500,
+        "2024": 44000,
+        "2020": 28750
+      }
+    },
+    "Porter": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12800,
+      "count": 19,
+      "min_year": 2006,
+      "max_year": 2017,
+      "by_year": {
+        "2006": 11450,
+        "2017": 15000,
+        "2008": 10500,
+        "2012": 12200,
+        "2010": 11000,
+        "2013": 14250,
+        "2011": 12750,
+        "2016": 14650,
+        "2015": 13500,
+        "2014": 13500
+      }
+    },
+    "SantaFe CM": {
+      "category": "sedan",
+      "year_ref": 2008,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 11200,
+      "count": 55,
+      "min_year": 2002,
+      "max_year": 2025,
+      "by_year": {
+        "2008": 10500,
+        "2025": 37500,
+        "2022": 19500,
+        "2011": 12000,
+        "2006": 10000,
+        "2009": 11500,
+        "2007": 10700,
+        "2012": 13000,
+        "2010": 11500,
+        "2013": 15000,
+        "2002": 6700
+      }
+    },
+    "SantaFe DM": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 14000,
+      "count": 56,
+      "min_year": 2012,
+      "max_year": 2018,
+      "by_year": {
+        "2014": 14000,
+        "2018": 15500,
+        "2013": 13500,
+        "2015": 14500,
+        "2016": 13500,
+        "2012": 18300
+      }
+    },
+    "SantaFe Max Cruise": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 15200,
+      "count": 12,
+      "min_year": 2013,
+      "max_year": 2018,
+      "by_year": {
+        "2014": 15200,
+        "2016": 15200,
+        "2015": 15000,
+        "2017": 15500,
+        "2018": 14500,
+        "2013": 15200
+      }
+    },
+    "Santafe Tm": {
+      "category": "sedan",
+      "year_ref": 2024,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 32000,
+      "count": 1,
+      "min_year": 2024,
+      "max_year": 2024,
+      "by_year": {
+        "2024": 32000
+      }
+    },
+    "Sonata": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10500,
+      "count": 211,
+      "min_year": 1989,
+      "max_year": 2022,
+      "by_year": {
+        "2012": 10000,
+        "2014": 10000,
+        "2017": 10350,
+        "2020": 13100,
+        "2011": 10200,
+        "2016": 10500,
+        "2015": 10300,
+        "2018": 11200,
+        "2019": 11400,
+        "2013": 10500,
+        "1989": 3500,
+        "2022": 17000,
+        "2010": 10500,
+        "2021": 18000,
+        "2007": 8000,
+        "2008": 8700,
+        "2000": 5500,
+        "1997": 3500
+      }
+    },
+    "Starex": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "manual",
+      "base": 13700,
+      "count": 6,
+      "min_year": 1998,
+      "max_year": 2016,
+      "by_year": {
+        "2005": 7000,
+        "2011": 13000,
+        "1998": 4400,
+        "2014": 17100,
+        "2016": 13700
+      }
+    },
+    "TM": {
+      "category": "sedan",
+      "year_ref": 2021,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 23000,
+      "count": 5,
+      "min_year": 2019,
+      "max_year": 2023,
+      "by_year": {
+        "2021": 22250,
+        "2020": 23000,
+        "2019": 20000,
+        "2023": 23500
+      }
+    },
+    "Tusan": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 13000,
+      "count": 63,
+      "min_year": 2001,
+      "max_year": 2026,
+      "by_year": {
+        "2021": 18250,
+        "2020": 16000,
+        "2013": 11500,
+        "2008": 10200,
+        "2012": 11800,
+        "2010": 10950,
+        "2022": 23700,
+        "2016": 14600,
+        "2004": 8000,
+        "2009": 10600,
+        "2014": 13500,
+        "2017": 15300,
+        "2015": 13900,
+        "2007": 8950,
+        "2011": 12450,
+        "2023": 25500,
+        "2018": 15800,
+        "2026": 23800,
+        "2001": 4000,
+        "2019": 20000,
+        "2024": 25000
+      }
+    },
+    "Veloster": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8600,
+      "count": 17,
+      "min_year": 2011,
+      "max_year": 2021,
+      "by_year": {
+        "2021": 11000,
+        "2012": 8350,
+        "2013": 8500,
+        "2014": 9000,
+        "2017": 8700,
+        "2020": 11000,
+        "2011": 8500
+      }
+    },
+    "Venue": {
+      "category": "sedan",
+      "year_ref": 2024,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 15500,
+      "count": 2,
+      "min_year": 2022,
+      "max_year": 2024,
+      "by_year": {
+        "2022": 11500,
+        "2024": 15500
+      }
+    },
+    "Veracruz": {
+      "category": "sedan",
+      "year_ref": 2008,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 12500,
+      "count": 32,
+      "min_year": 2007,
+      "max_year": 2012,
+      "by_year": {
+        "2008": 11800,
+        "2007": 12000,
+        "2012": 13500,
+        "2011": 15100,
+        "2010": 13350,
+        "2009": 10500
+      }
+    },
+    "Verna": {
+      "category": "sedan",
+      "year_ref": 2009,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 7000,
+      "count": 10,
+      "min_year": 2006,
+      "max_year": 2012,
+      "by_year": {
+        "2008": 6100,
+        "2009": 7000,
+        "2012": 7000,
+        "2006": 7200
+      }
+    },
+    "XD": {
+      "category": "sedan",
+      "year_ref": 2006,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 6000,
+      "count": 4,
+      "min_year": 2003,
+      "max_year": 2006,
+      "by_year": {
+        "2006": 6000,
+        "2003": 5700
+      }
+    },
+    "click": {
+      "category": "sedan",
+      "year_ref": 2007,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 7500,
+      "count": 1,
+      "min_year": 2007,
+      "max_year": 2007,
+      "by_year": {
+        "2007": 7500
+      }
+    },
+    "coppe": {
+      "category": "sedan",
+      "year_ref": 2006,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 6500,
+      "count": 3,
+      "min_year": 2003,
+      "max_year": 2009,
+      "by_year": {
+        "2006": 6500,
+        "2009": 7200,
+        "2003": 4800
+      }
+    },
+    "h100": {
+      "category": "sedan",
+      "year_ref": 2026,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 18700,
+      "count": 1,
+      "min_year": 2026,
+      "max_year": 2026,
+      "by_year": {
+        "2026": 18700
+      }
+    },
+    "i10": {
+      "category": "hatchback",
+      "year_ref": 2009,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 6500,
+      "count": 3,
+      "min_year": 2008,
+      "max_year": 2010,
+      "by_year": {
+        "2008": 6300,
+        "2009": 6500,
+        "2010": 6500
+      }
+    },
+    "i30": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9500,
+      "count": 5,
+      "min_year": 2010,
+      "max_year": 2016,
+      "by_year": {
+        "2013": 9350,
+        "2010": 6500,
+        "2016": 9500,
+        "2012": 10500
+      }
+    },
+    "i40": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 11200,
+      "count": 12,
+      "min_year": 2011,
+      "max_year": 2016,
+      "by_year": {
+        "2014": 11700,
+        "2012": 10500,
+        "2016": 11850,
+        "2015": 10000,
+        "2011": 11500
+      }
+    }
+  },
+  "INFINITI": {
+    "A50": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8200,
+      "count": 1,
+      "min_year": 2014,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 8200
+      }
+    },
+    "FX35": {
+      "category": "suv",
+      "year_ref": 2014,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 10700,
+      "count": 2,
+      "min_year": 2012,
+      "max_year": 2014,
+      "by_year": {
+        "2012": 10700,
+        "2014": 10500
+      }
+    },
+    "G25": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 9500,
+      "count": 3,
+      "min_year": 2012,
+      "max_year": 2014,
+      "by_year": {
+        "2013": 9500,
+        "2012": 9700,
+        "2014": 9500
+      }
+    },
+    "G37": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10500,
+      "count": 4,
+      "min_year": 2008,
+      "max_year": 2013,
+      "by_year": {
+        "2013": 10600,
+        "2008": 8000,
+        "2009": 10500
+      }
+    },
+    "JX35": {
+      "category": "suv",
+      "year_ref": 2013,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 13000,
+      "count": 2,
+      "min_year": 2013,
+      "max_year": 2013,
+      "by_year": {
+        "2013": 11250
+      }
+    },
+    "M30d": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 11000,
+      "count": 1,
+      "min_year": 2013,
+      "max_year": 2013,
+      "by_year": {
+        "2013": 11000
+      }
+    },
+    "M35": {
+      "category": "sedan",
+      "year_ref": 2009,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 10500,
+      "count": 1,
+      "min_year": 2009,
+      "max_year": 2009,
+      "by_year": {
+        "2009": 10500
+      }
+    },
+    "M37": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 10500,
+      "count": 3,
+      "min_year": 2011,
+      "max_year": 2012,
+      "by_year": {
+        "2012": 9500,
+        "2011": 11500
+      }
+    },
+    "Q30": {
+      "category": "sedan",
+      "year_ref": 2018,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 13500,
+      "count": 1,
+      "min_year": 2018,
+      "max_year": 2018,
+      "by_year": {
+        "2018": 13500
+      }
+    },
+    "Q37": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 10800,
+      "count": 2,
+      "min_year": 2010,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 10800,
+        "2010": 9500
+      }
+    },
+    "Q50": {
+      "category": "suv",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 11000,
+      "count": 6,
+      "min_year": 2015,
+      "max_year": 2016,
+      "by_year": {
+        "2015": 11400,
+        "2016": 10500
+      }
+    },
+    "Q70": {
+      "category": "suv",
+      "year_ref": 2014,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 11500,
+      "count": 3,
+      "min_year": 2014,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 11500
+      }
+    },
+    "QX56": {
+      "category": "suv",
+      "year_ref": 2012,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 15000,
+      "count": 2,
+      "min_year": 2004,
+      "max_year": 2012,
+      "by_year": {
+        "2012": 15000,
+        "2004": 8700
+      }
+    },
+    "Qx50": {
+      "category": "suv",
+      "year_ref": 2019,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 16000,
+      "count": 2,
+      "min_year": 2016,
+      "max_year": 2019,
+      "by_year": {
+        "2019": 16000,
+        "2016": 12500
+      }
+    },
+    "Qx60": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 13000,
+      "count": 5,
+      "min_year": 2014,
+      "max_year": 2018,
+      "by_year": {
+        "2017": 19000,
+        "2014": 11500,
+        "2018": 16200
+      }
+    }
+  },
+  "JAC": {
+    "GS7": {
+      "category": "sedan",
+      "year_ref": 2021,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 11500,
+      "count": 1,
+      "min_year": 2021,
+      "max_year": 2021,
+      "by_year": {
+        "2021": 11500
+      }
+    },
+    "JS": {
+      "category": "sedan",
+      "year_ref": 2020,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12200,
+      "count": 1,
+      "min_year": 2020,
+      "max_year": 2020,
+      "by_year": {
+        "2020": 12200
+      }
+    }
+  },
+  "Jaguar": {
+    "Epase": {
+      "category": "sedan",
+      "year_ref": 2019,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 16000,
+      "count": 1,
+      "min_year": 2019,
+      "max_year": 2019,
+      "by_year": {
+        "2019": 16000
+      }
+    },
+    "F pace": {
+      "category": "sedan",
+      "year_ref": 2017,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 18000,
+      "count": 1,
+      "min_year": 2017,
+      "max_year": 2017,
+      "by_year": {
+        "2017": 18000
+      }
+    },
+    "SF": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10800,
+      "count": 1,
+      "min_year": 2013,
+      "max_year": 2013,
+      "by_year": {
+        "2013": 10800
+      }
+    },
+    "X Type": {
+      "category": "sedan",
+      "year_ref": 2003,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 4700,
+      "count": 1,
+      "min_year": 2003,
+      "max_year": 2003,
+      "by_year": {
+        "2003": 4700
+      }
+    },
+    "XE": {
+      "category": "sedan",
+      "year_ref": 2016,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9750,
+      "count": 9,
+      "min_year": 2014,
+      "max_year": 2017,
+      "by_year": {
+        "2016": 10000,
+        "2017": 10500,
+        "2014": 9625
+      }
+    },
+    "XF": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9500,
+      "count": 9,
+      "min_year": 2010,
+      "max_year": 2016,
+      "by_year": {
+        "2010": 7500,
+        "2016": 11000,
+        "2011": 10000,
+        "2013": 8500,
+        "2014": 9500,
+        "2015": 9050
+      }
+    },
+    "XG": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10000,
+      "count": 1,
+      "min_year": 2014,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 10000
+      }
+    }
+  },
+  "Jeep": {
+    "Cherokee": {
+      "category": "suv",
+      "year_ref": 2016,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 18200,
+      "count": 20,
+      "min_year": 2012,
+      "max_year": 2025,
+      "by_year": {
+        "2013": 11700,
+        "2020": 20000,
+        "2014": 14000,
+        "2015": 23000,
+        "2016": 19000,
+        "2017": 18200,
+        "2012": 10200,
+        "2019": 14700,
+        "2021": 22000,
+        "2025": 23000,
+        "2022": 21500,
+        "2018": 19500
+      }
+    },
+    "Compass": {
+      "category": "suv",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10400,
+      "count": 6,
+      "min_year": 2011,
+      "max_year": 2020,
+      "by_year": {
+        "2011": 8000,
+        "2013": 9000,
+        "2020": 16000,
+        "2015": 10400,
+        "2014": 10500
+      }
+    },
+    "Patriot": {
+      "category": "suv",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 11000,
+      "count": 2,
+      "min_year": 2011,
+      "max_year": 2012,
+      "by_year": {
+        "2012": 8500,
+        "2011": 11000
+      }
+    },
+    "Renegade": {
+      "category": "suv",
+      "year_ref": 2021,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 16800,
+      "count": 1,
+      "min_year": 2021,
+      "max_year": 2021,
+      "by_year": {
+        "2021": 16800
+      }
+    }
+  },
+  "Jetour": {
+    "T2": {
+      "category": "sedan",
+      "year_ref": 2026,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 31000,
+      "count": 1,
+      "min_year": 2026,
+      "max_year": 2026,
+      "by_year": {
+        "2026": 31000
+      }
+    }
+  },
+  "KIA": {
+    "2700": {
+      "category": "sedan",
+      "year_ref": 2003,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "manual",
+      "base": 6900,
+      "count": 1,
+      "min_year": 2003,
+      "max_year": 2003,
+      "by_year": {
+        "2003": 6900
+      }
+    },
+    "ADEROS": {
+      "category": "sedan",
+      "year_ref": 2007,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 8300,
+      "count": 1,
+      "min_year": 2007,
+      "max_year": 2007,
+      "by_year": {
+        "2007": 8300
+      }
+    },
+    "Amanti": {
+      "category": "sedan",
+      "year_ref": 2007,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 6700,
+      "count": 2,
+      "min_year": 2006,
+      "max_year": 2007,
+      "by_year": {
+        "2007": 6200,
+        "2006": 6700
+      }
+    },
+    "BESTA": {
+      "category": "sedan",
+      "year_ref": 1993,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "manual",
+      "base": 14000,
+      "count": 1,
+      "min_year": 1993,
+      "max_year": 1993,
+      "by_year": {
+        "1993": 14000
+      }
+    },
+    "Bongo 2700": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12000,
+      "count": 13,
+      "min_year": 2001,
+      "max_year": 2025,
+      "by_year": {
+        "2019": 15500,
+        "2025": 19500,
+        "2017": 12450,
+        "2010": 9500,
+        "2013": 12000,
+        "2014": 12500,
+        "2001": 5000,
+        "2016": 12000,
+        "2009": 10200,
+        "2006": 9200,
+        "2012": 12500
+      }
+    },
+    "CARENS": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9000,
+      "count": 2,
+      "min_year": 2009,
+      "max_year": 2011,
+      "by_year": {
+        "2009": 8800,
+        "2011": 9000
+      }
+    },
+    "Cadenza": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 11900,
+      "count": 7,
+      "min_year": 2012,
+      "max_year": 2020,
+      "by_year": {
+        "2020": 14000,
+        "2014": 11800,
+        "2012": 10100,
+        "2015": 12750,
+        "2016": 11900
+      }
+    },
+    "Cerato": {
+      "category": "sedan",
+      "year_ref": 2009,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 8500,
+      "count": 12,
+      "min_year": 2007,
+      "max_year": 2018,
+      "by_year": {
+        "2018": 10200,
+        "2009": 7000,
+        "2007": 8200,
+        "2016": 10750,
+        "2008": 8450
+      }
+    },
+    "FORTE": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9000,
+      "count": 4,
+      "min_year": 2010,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 9700,
+        "2010": 8950
+      }
+    },
+    "FORTE COUPE": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8500,
+      "count": 3,
+      "min_year": 2010,
+      "max_year": 2011,
+      "by_year": {
+        "2010": 9250,
+        "2011": 8000
+      }
+    },
+    "Forte": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 9200,
+      "count": 42,
+      "min_year": 2009,
+      "max_year": 2021,
+      "by_year": {
+        "2010": 8950,
+        "2011": 9200,
+        "2009": 8200,
+        "2019": 13700,
+        "2013": 11100,
+        "2018": 11200,
+        "2012": 10950,
+        "2020": 9350,
+        "2021": 13700
+      }
+    },
+    "K8": {
+      "category": "sedan",
+      "year_ref": 2022,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 17000,
+      "count": 1,
+      "min_year": 2022,
+      "max_year": 2022,
+      "by_year": {
+        "2022": 17000
+      }
+    },
+    "Lotze": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8800,
+      "count": 2,
+      "min_year": 2007,
+      "max_year": 2010,
+      "by_year": {
+        "2010": 8800,
+        "2007": 8500
+      }
+    },
+    "Mohave": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 11700,
+      "count": 30,
+      "min_year": 2008,
+      "max_year": 2022,
+      "by_year": {
+        "2014": 15050,
+        "2009": 11200,
+        "2012": 11800,
+        "2022": 25000,
+        "2008": 11000,
+        "2011": 11100,
+        "2010": 11900,
+        "2021": 31500
+      }
+    },
+    "Morning": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 7000,
+      "count": 18,
+      "min_year": 2001,
+      "max_year": 2016,
+      "by_year": {
+        "2012": 7600,
+        "2016": 8150,
+        "2015": 7500,
+        "2010": 6900,
+        "2011": 6850,
+        "2003": 4700,
+        "2009": 6700,
+        "2008": 5300,
+        "2007": 5850,
+        "2001": 3500
+      }
+    },
+    "NEW RIO": {
+      "category": "hatchback",
+      "year_ref": 2002,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "manual",
+      "base": 5200,
+      "count": 1,
+      "min_year": 2002,
+      "max_year": 2002,
+      "by_year": {
+        "2002": 5200
+      }
+    },
+    "Niro": {
+      "category": "sedan",
+      "year_ref": 2018,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 14000,
+      "count": 3,
+      "min_year": 2017,
+      "max_year": 2019,
+      "by_year": {
+        "2018": 14200,
+        "2019": 14000,
+        "2017": 12700
+      }
+    },
+    "Opirus": {
+      "category": "sedan",
+      "year_ref": 2008,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 8000,
+      "count": 3,
+      "min_year": 2008,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 10000,
+        "2008": 7850
+      }
+    },
+    "Optima / K5": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 11200,
+      "count": 155,
+      "min_year": 2004,
+      "max_year": 2024,
+      "by_year": {
+        "2021": 15700,
+        "2019": 12200,
+        "2010": 9200,
+        "2012": 10700,
+        "2015": 11200,
+        "2018": 11500,
+        "2014": 10950,
+        "2009": 10250,
+        "2013": 11000,
+        "2011": 11500,
+        "2020": 11700,
+        "2023": 21200,
+        "2016": 11000,
+        "2017": 12850,
+        "2022": 19500,
+        "2007": 8000,
+        "2024": 18500,
+        "2006": 6100,
+        "2004": 5500
+      }
+    },
+    "Pegas": {
+      "category": "sedan",
+      "year_ref": 2025,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 15000,
+      "count": 1,
+      "min_year": 2025,
+      "max_year": 2025,
+      "by_year": {
+        "2025": 15000
+      }
+    },
+    "Picanto": {
+      "category": "sedan",
+      "year_ref": 2017,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 7200,
+      "count": 4,
+      "min_year": 2007,
+      "max_year": 2018,
+      "by_year": {
+        "2018": 7200,
+        "2010": 6700,
+        "2017": 12000,
+        "2007": 4700
+      }
+    },
+    "Pride": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8200,
+      "count": 2,
+      "min_year": 2012,
+      "max_year": 2013,
+      "by_year": {
+        "2013": 8200,
+        "2012": 8100
+      }
+    },
+    "Ray": {
+      "category": "sedan",
+      "year_ref": 2016,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 7600,
+      "count": 1,
+      "min_year": 2016,
+      "max_year": 2016,
+      "by_year": {
+        "2016": 7600
+      }
+    },
+    "Rio": {
+      "category": "hatchback",
+      "year_ref": 2009,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 7000,
+      "count": 34,
+      "min_year": 2001,
+      "max_year": 2020,
+      "by_year": {
+        "2009": 7050,
+        "2010": 6800,
+        "2013": 8200,
+        "2008": 7100,
+        "2011": 7750,
+        "2006": 6150,
+        "2007": 6900,
+        "2020": 10800,
+        "2001": 3250,
+        "2003": 4000,
+        "2015": 7800,
+        "2012": 7500
+      }
+    },
+    "STONIC": {
+      "category": "sedan",
+      "year_ref": 2019,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9300,
+      "count": 1,
+      "min_year": 2019,
+      "max_year": 2019,
+      "by_year": {
+        "2019": 9300
+      }
+    },
+    "Sedona": {
+      "category": "sedan",
+      "year_ref": 2016,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 14500,
+      "count": 10,
+      "min_year": 2014,
+      "max_year": 2019,
+      "by_year": {
+        "2014": 13900,
+        "2016": 14500,
+        "2015": 12500,
+        "2017": 17250,
+        "2019": 18000
+      }
+    },
+    "Seltos": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 15100,
+      "count": 1,
+      "min_year": 2011,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 15100
+      }
+    },
+    "Sephia": {
+      "category": "sedan",
+      "year_ref": 2002,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 5000,
+      "count": 2,
+      "min_year": 2001,
+      "max_year": 2002,
+      "by_year": {
+        "2002": 3500,
+        "2001": 5000
+      }
+    },
+    "Shuma": {
+      "category": "sedan",
+      "year_ref": 2002,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 6000,
+      "count": 3,
+      "min_year": 2002,
+      "max_year": 2004,
+      "by_year": {
+        "2004": 6200,
+        "2002": 5100
+      }
+    },
+    "Soul": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 9000,
+      "count": 23,
+      "min_year": 2009,
+      "max_year": 2020,
+      "by_year": {
+        "2017": 10500,
+        "2011": 8850,
+        "2010": 9400,
+        "2009": 8600,
+        "2012": 8750,
+        "2020": 11500,
+        "2013": 9900
+      }
+    },
+    "Spectra": {
+      "category": "sedan",
+      "year_ref": 2006,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 6800,
+      "count": 4,
+      "min_year": 2003,
+      "max_year": 2006,
+      "by_year": {
+        "2006": 6800,
+        "2003": 6500
+      }
+    },
+    "Stinger": {
+      "category": "sedan",
+      "year_ref": 2019,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 19000,
+      "count": 2,
+      "min_year": 2018,
+      "max_year": 2019,
+      "by_year": {
+        "2018": 19000,
+        "2019": 16500
+      }
+    },
+    "Telluride": {
+      "category": "sedan",
+      "year_ref": 2024,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 30000,
+      "count": 2,
+      "min_year": 2020,
+      "max_year": 2024,
+      "by_year": {
+        "2020": 24500,
+        "2024": 30000
+      }
+    },
+    "Van": {
+      "category": "sedan",
+      "year_ref": 1998,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 13200,
+      "count": 2,
+      "min_year": 1994,
+      "max_year": 1998,
+      "by_year": {
+        "1998": 13200,
+        "1994": 5200
+      }
+    },
+    "carnival": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12000,
+      "count": 12,
+      "min_year": 2004,
+      "max_year": 2021,
+      "by_year": {
+        "2016": 13750,
+        "2012": 9800,
+        "2014": 11750,
+        "2021": 22500,
+        "2013": 12000,
+        "2015": 11100,
+        "2004": 6000
+      }
+    },
+    "k3": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 11000,
+      "count": 34,
+      "min_year": 2013,
+      "max_year": 2020,
+      "by_year": {
+        "2013": 10800,
+        "2016": 11200,
+        "2015": 9500,
+        "2014": 11250,
+        "2019": 15000,
+        "2017": 11500,
+        "2020": 13500
+      }
+    },
+    "k7": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 11500,
+      "count": 110,
+      "min_year": 2010,
+      "max_year": 2020,
+      "by_year": {
+        "2011": 10850,
+        "2013": 11500,
+        "2014": 12000,
+        "2012": 11000,
+        "2010": 9200,
+        "2018": 17000,
+        "2016": 13500,
+        "2017": 14150,
+        "2015": 11900,
+        "2020": 23500
+      }
+    },
+    "k9": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 13000,
+      "count": 23,
+      "min_year": 2012,
+      "max_year": 2016,
+      "by_year": {
+        "2013": 13000,
+        "2014": 12600,
+        "2016": 13500,
+        "2012": 12750,
+        "2015": 15350
+      }
+    },
+    "sorento": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 15200,
+      "count": 69,
+      "min_year": 2002,
+      "max_year": 2023,
+      "by_year": {
+        "2005": 6200,
+        "2016": 15800,
+        "2013": 10300,
+        "2010": 13000,
+        "2011": 12200,
+        "2002": 6700,
+        "2014": 15000,
+        "2015": 16500,
+        "2012": 11350,
+        "2003": 7300,
+        "2019": 17100,
+        "2021": 23500,
+        "2022": 24250,
+        "2020": 19000,
+        "2023": 28750,
+        "2009": 13500,
+        "2017": 18500,
+        "2018": 17500
+      }
+    },
+    "sportage": {
+      "category": "suv",
+      "year_ref": 2013,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 12800,
+      "count": 79,
+      "min_year": 2000,
+      "max_year": 2025,
+      "by_year": {
+        "2008": 9250,
+        "2017": 15200,
+        "2016": 16200,
+        "2009": 9600,
+        "2020": 16250,
+        "2022": 17600,
+        "2025": 24250,
+        "2014": 12500,
+        "2015": 13650,
+        "2000": 4000,
+        "2011": 11000,
+        "2013": 13300,
+        "2007": 8000,
+        "2012": 13000,
+        "2010": 9800,
+        "2019": 15300,
+        "2006": 9000,
+        "2005": 8550
+      }
+    }
+  },
+  "LADA": {
+    "0ka": {
+      "category": "sedan",
+      "year_ref": 2003,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "manual",
+      "base": 1200,
+      "count": 1,
+      "min_year": 2003,
+      "max_year": 2003,
+      "by_year": {
+        "2003": 1200
+      }
+    },
+    "110": {
+      "category": "sedan",
+      "year_ref": 2007,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 2200,
+      "count": 1,
+      "min_year": 2007,
+      "max_year": 2007,
+      "by_year": {
+        "2007": 2200
+      }
+    },
+    "112": {
+      "category": "sedan",
+      "year_ref": 2007,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 2200,
+      "count": 1,
+      "min_year": 2007,
+      "max_year": 2007,
+      "by_year": {
+        "2007": 2200
+      }
+    },
+    "NOVA": {
+      "category": "sedan",
+      "year_ref": 1991,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 2700,
+      "count": 1,
+      "min_year": 1991,
+      "max_year": 1991,
+      "by_year": {
+        "1991": 2700
+      }
+    },
+    "SAMARA 109": {
+      "category": "sedan",
+      "year_ref": 2006,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 2500,
+      "count": 3,
+      "min_year": 2005,
+      "max_year": 2008,
+      "by_year": {
+        "2008": 2600,
+        "2005": 2500,
+        "2006": 2200
+      }
+    }
+  },
+  "LEXUS": {
+    "ES330": {
+      "category": "sedan",
+      "year_ref": 2005,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 9000,
+      "count": 1,
+      "min_year": 2005,
+      "max_year": 2005,
+      "by_year": {
+        "2005": 9000
+      }
+    },
+    "ES350": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 10700,
+      "count": 3,
+      "min_year": 2007,
+      "max_year": 2015,
+      "by_year": {
+        "2015": 13000,
+        "2007": 10200,
+        "2013": 10700
+      }
+    },
+    "GS300": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12500,
+      "count": 2,
+      "min_year": 2009,
+      "max_year": 2013,
+      "by_year": {
+        "2013": 12500,
+        "2009": 10500
+      }
+    },
+    "IS300": {
+      "category": "sedan",
+      "year_ref": 2016,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12500,
+      "count": 1,
+      "min_year": 2016,
+      "max_year": 2016,
+      "by_year": {
+        "2016": 12500
+      }
+    },
+    "Is250": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 8900,
+      "count": 1,
+      "min_year": 2011,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 8900
+      }
+    },
+    "LS460": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 12500,
+      "count": 2,
+      "min_year": 2011,
+      "max_year": 2012,
+      "by_year": {
+        "2012": 10500,
+        "2011": 12500
+      }
+    },
+    "LSL": {
+      "category": "sedan",
+      "year_ref": 2009,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 9000,
+      "count": 1,
+      "min_year": 2009,
+      "max_year": 2009,
+      "by_year": {
+        "2009": 9000
+      }
+    },
+    "RX350": {
+      "category": "suv",
+      "year_ref": 2011,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 9500,
+      "count": 1,
+      "min_year": 2011,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 9500
+      }
+    },
+    "UX200": {
+      "category": "sedan",
+      "year_ref": 2019,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 13000,
+      "count": 1,
+      "min_year": 2019,
+      "max_year": 2019,
+      "by_year": {
+        "2019": 13000
+      }
+    },
+    "X570": {
+      "category": "suv",
+      "year_ref": 2016,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 35000,
+      "count": 2,
+      "min_year": 2012,
+      "max_year": 2016,
+      "by_year": {
+        "2012": 23000,
+        "2016": 35000
+      }
+    }
+  },
+  "LIFAN": {
+    "320": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 3400,
+      "count": 1,
+      "min_year": 2010,
+      "max_year": 2010,
+      "by_year": {
+        "2010": 3400
+      }
+    }
+  },
+  "LINCOLN": {
+    "Corsair": {
+      "category": "sedan",
+      "year_ref": 2022,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 22000,
+      "count": 2,
+      "min_year": 2020,
+      "max_year": 2022,
+      "by_year": {
+        "2022": 22000,
+        "2020": 18000
+      }
+    },
+    "MKC": {
+      "category": "sedan",
+      "year_ref": 2022,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 20000,
+      "count": 1,
+      "min_year": 2022,
+      "max_year": 2022,
+      "by_year": {
+        "2022": 20000
+      }
+    },
+    "MKS": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 13000,
+      "count": 2,
+      "min_year": 2011,
+      "max_year": 2013,
+      "by_year": {
+        "2011": 9000,
+        "2013": 13000
+      }
+    },
+    "MKX": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9000,
+      "count": 1,
+      "min_year": 2011,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 9000
+      }
+    },
+    "Navigator": {
+      "category": "sedan",
+      "year_ref": 2017,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 16000,
+      "count": 1,
+      "min_year": 2017,
+      "max_year": 2017,
+      "by_year": {
+        "2017": 16000
+      }
+    }
+  },
+  "MASERATI": {
+    "Levante": {
+      "category": "sedan",
+      "year_ref": 2017,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 20000,
+      "count": 1,
+      "min_year": 2017,
+      "max_year": 2017,
+      "by_year": {
+        "2017": 20000
+      }
+    },
+    "Quattroporte": {
+      "category": "sedan",
+      "year_ref": 2016,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 14000,
+      "count": 1,
+      "min_year": 2016,
+      "max_year": 2016,
+      "by_year": {
+        "2016": 14000
+      }
+    }
+  },
+  "MAXUS": {
+    "G10": {
+      "category": "sedan",
+      "year_ref": 2022,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 11000,
+      "count": 1,
+      "min_year": 2022,
+      "max_year": 2022,
+      "by_year": {
+        "2022": 11000
+      }
+    }
+  },
+  "MG": {
+    "3": {
+      "category": "sedan",
+      "year_ref": 2025,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 24000,
+      "count": 1,
+      "min_year": 2025,
+      "max_year": 2025,
+      "by_year": {
+        "2025": 24000
+      }
+    },
+    "5": {
+      "category": "sedan",
+      "year_ref": 2025,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 13700,
+      "count": 1,
+      "min_year": 2025,
+      "max_year": 2025,
+      "by_year": {
+        "2025": 13700
+      }
+    },
+    "7": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 6500,
+      "count": 1,
+      "min_year": 2014,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 6500
+      }
+    }
+  },
+  "MINI COOPER": {
+    "COOPER": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 10000,
+      "count": 4,
+      "min_year": 2007,
+      "max_year": 2019,
+      "by_year": {
+        "2012": 9100,
+        "2019": 15500,
+        "2007": 6800
+      }
+    },
+    "CountryMan": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 9000,
+      "count": 7,
+      "min_year": 2011,
+      "max_year": 2018,
+      "by_year": {
+        "2013": 8750,
+        "2011": 7500,
+        "2015": 9300,
+        "2012": 8200,
+        "2018": 19000
+      }
+    },
+    "Coupe": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8200,
+      "count": 5,
+      "min_year": 2007,
+      "max_year": 2017,
+      "by_year": {
+        "2017": 10500,
+        "2012": 6900,
+        "2013": 8200,
+        "2007": 8250
+      }
+    },
+    "Hardtop": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 6200,
+      "count": 1,
+      "min_year": 2012,
+      "max_year": 2012,
+      "by_year": {
+        "2012": 6200
+      }
+    },
+    "John Cooper Works": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9500,
+      "count": 1,
+      "min_year": 2014,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 9500
+      }
+    },
+    "Paceman": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8500,
+      "count": 2,
+      "min_year": 2012,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 8500,
+        "2012": 6800
+      }
+    },
+    "R53 s": {
+      "category": "sedan",
+      "year_ref": 2008,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8500,
+      "count": 3,
+      "min_year": 2006,
+      "max_year": 2012,
+      "by_year": {
+        "2012": 10500,
+        "2006": 6700,
+        "2008": 8500
+      }
+    }
+  },
+  "MITSUBISHI": {
+    "Attrage": {
+      "category": "sedan",
+      "year_ref": 2022,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9800,
+      "count": 3,
+      "min_year": 2020,
+      "max_year": 2023,
+      "by_year": {
+        "2022": 10200,
+        "2020": 9000,
+        "2023": 9800
+      }
+    },
+    "Colt": {
+      "category": "sedan",
+      "year_ref": 1983,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 1700,
+      "count": 2,
+      "min_year": 1983,
+      "max_year": 1983,
+      "by_year": {
+        "1983": 1700
+      }
+    },
+    "HAEMA": {
+      "category": "sedan",
+      "year_ref": 2009,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "manual",
+      "base": 5700,
+      "count": 1,
+      "min_year": 2009,
+      "max_year": 2009,
+      "by_year": {
+        "2009": 5700
+      }
+    },
+    "Impreza": {
+      "category": "sedan",
+      "year_ref": 2001,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 5200,
+      "count": 1,
+      "min_year": 2001,
+      "max_year": 2001,
+      "by_year": {
+        "2001": 5200
+      }
+    },
+    "L200": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "manual",
+      "base": 10800,
+      "count": 3,
+      "min_year": 2006,
+      "max_year": 2020,
+      "by_year": {
+        "2013": 10800,
+        "2020": 14800,
+        "2006": 5400
+      }
+    },
+    "Lancer": {
+      "category": "sedan",
+      "year_ref": 2007,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 7000,
+      "count": 5,
+      "min_year": 2002,
+      "max_year": 2016,
+      "by_year": {
+        "2006": 5000,
+        "2016": 8500,
+        "2002": 5500,
+        "2007": 8200,
+        "2008": 7000
+      }
+    },
+    "Outlander": {
+      "category": "sedan",
+      "year_ref": 2020,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 16000,
+      "count": 2,
+      "min_year": 2012,
+      "max_year": 2020,
+      "by_year": {
+        "2020": 16000,
+        "2012": 9500
+      }
+    },
+    "Pajero": {
+      "category": "suv",
+      "year_ref": 2013,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 13700,
+      "count": 5,
+      "min_year": 2005,
+      "max_year": 2020,
+      "by_year": {
+        "2012": 9500,
+        "2020": 17500,
+        "2016": 16000,
+        "2005": 8000,
+        "2013": 13700
+      }
+    },
+    "qirsh": {
+      "category": "sedan",
+      "year_ref": 2009,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8800,
+      "count": 2,
+      "min_year": 2008,
+      "max_year": 2009,
+      "by_year": {
+        "2009": 8200,
+        "2008": 8800
+      }
+    }
+  },
+  "Mazda": {
+    "121": {
+      "category": "sedan",
+      "year_ref": 1993,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 1700,
+      "count": 1,
+      "min_year": 1993,
+      "max_year": 1993,
+      "by_year": {
+        "1993": 1700
+      }
+    },
+    "323": {
+      "category": "sedan",
+      "year_ref": 2000,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 2400,
+      "count": 2,
+      "min_year": 1993,
+      "max_year": 2000,
+      "by_year": {
+        "2000": 2200,
+        "1993": 2400
+      }
+    },
+    "626": {
+      "category": "sedan",
+      "year_ref": 1995,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 3700,
+      "count": 3,
+      "min_year": 1993,
+      "max_year": 1996,
+      "by_year": {
+        "1995": 3700,
+        "1993": 3600,
+        "1996": 4700
+      }
+    },
+    "929": {
+      "category": "sedan",
+      "year_ref": 1983,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 2300,
+      "count": 5,
+      "min_year": 1983,
+      "max_year": 1983,
+      "by_year": {
+        "1983": 2300
+      }
+    },
+    "CX3": {
+      "category": "suv",
+      "year_ref": 2021,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 12000,
+      "count": 1,
+      "min_year": 2021,
+      "max_year": 2021,
+      "by_year": {
+        "2021": 12000
+      }
+    },
+    "Cx9": {
+      "category": "sedan",
+      "year_ref": 2023,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 28000,
+      "count": 3,
+      "min_year": 2011,
+      "max_year": 2023,
+      "by_year": {
+        "2023": 28000,
+        "2011": 10200
+      }
+    },
+    "GX9": {
+      "category": "sedan",
+      "year_ref": 2017,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 17000,
+      "count": 1,
+      "min_year": 2017,
+      "max_year": 2017,
+      "by_year": {
+        "2017": 17000
+      }
+    },
+    "Sx30": {
+      "category": "suv",
+      "year_ref": 2020,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 14500,
+      "count": 1,
+      "min_year": 2020,
+      "max_year": 2020,
+      "by_year": {
+        "2020": 14500
+      }
+    },
+    "Xedos": {
+      "category": "sedan",
+      "year_ref": 1998,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 5000,
+      "count": 2,
+      "min_year": 1997,
+      "max_year": 1998,
+      "by_year": {
+        "1998": 5000,
+        "1997": 5000
+      }
+    },
+    "ZOOM 3": {
+      "category": "sedan",
+      "year_ref": 2008,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 7200,
+      "count": 10,
+      "min_year": 2005,
+      "max_year": 2026,
+      "by_year": {
+        "2026": 25000,
+        "2018": 10500,
+        "2009": 4800,
+        "2008": 7200,
+        "2005": 7200,
+        "2007": 6200
+      }
+    },
+    "ZOOM 6": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8800,
+      "count": 8,
+      "min_year": 2003,
+      "max_year": 2016,
+      "by_year": {
+        "2015": 11500,
+        "2003": 5300,
+        "2016": 13500,
+        "2010": 7500,
+        "2014": 8800,
+        "2011": 7500,
+        "2006": 4500
+      }
+    },
+    "ZOOM 9": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 10000,
+      "count": 1,
+      "min_year": 2014,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 10000
+      }
+    },
+    "micro bus": {
+      "category": "sedan",
+      "year_ref": 1981,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 7200,
+      "count": 1,
+      "min_year": 1981,
+      "max_year": 1981,
+      "by_year": {
+        "1981": 7200
+      }
+    }
+  },
+  "Mercedes": {
+    "230E": {
+      "category": "sedan",
+      "year_ref": 1986,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 3700,
+      "count": 2,
+      "min_year": 1983,
+      "max_year": 1986,
+      "by_year": {
+        "1983": 2700,
+        "1986": 3700
+      }
+    },
+    "300 GD": {
+      "category": "sedan",
+      "year_ref": 1987,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 3300,
+      "count": 1,
+      "min_year": 1987,
+      "max_year": 1987,
+      "by_year": {
+        "1987": 3300
+      }
+    },
+    "A 200": {
+      "category": "sedan",
+      "year_ref": 2019,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 22000,
+      "count": 2,
+      "min_year": 2016,
+      "max_year": 2019,
+      "by_year": {
+        "2019": 22000,
+        "2016": 12200
+      }
+    },
+    "A220": {
+      "category": "sedan",
+      "year_ref": 2021,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 16000,
+      "count": 1,
+      "min_year": 2021,
+      "max_year": 2021,
+      "by_year": {
+        "2021": 16000
+      }
+    },
+    "C180": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 9900,
+      "count": 3,
+      "min_year": 1993,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 10550,
+        "1993": 5500
+      }
+    },
+    "C200": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 12500,
+      "count": 14,
+      "min_year": 2008,
+      "max_year": 2020,
+      "by_year": {
+        "2013": 10700,
+        "2020": 24000,
+        "2014": 10150,
+        "2016": 16600,
+        "2017": 18000,
+        "2018": 16500,
+        "2008": 9000,
+        "2011": 11350
+      }
+    },
+    "C220": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9500,
+      "count": 1,
+      "min_year": 2012,
+      "max_year": 2012,
+      "by_year": {
+        "2012": 9500
+      }
+    },
+    "C250": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 12200,
+      "count": 13,
+      "min_year": 2012,
+      "max_year": 2014,
+      "by_year": {
+        "2013": 11250,
+        "2014": 12200,
+        "2012": 12600
+      }
+    },
+    "C300": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 16000,
+      "count": 24,
+      "min_year": 2011,
+      "max_year": 2020,
+      "by_year": {
+        "2020": 21750,
+        "2015": 16000,
+        "2016": 17700,
+        "2017": 20000,
+        "2018": 19500,
+        "2019": 20000,
+        "2014": 12100,
+        "2012": 11000,
+        "2011": 11500,
+        "2013": 11700
+      }
+    },
+    "C320": {
+      "category": "sedan",
+      "year_ref": 1994,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 6700,
+      "count": 1,
+      "min_year": 1994,
+      "max_year": 1994,
+      "by_year": {
+        "1994": 6700
+      }
+    },
+    "C350": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10900,
+      "count": 6,
+      "min_year": 2011,
+      "max_year": 2015,
+      "by_year": {
+        "2015": 10950,
+        "2012": 8500,
+        "2011": 9000
+      }
+    },
+    "CL-550": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 11200,
+      "count": 2,
+      "min_year": 2012,
+      "max_year": 2012,
+      "by_year": {
+        "2012": 10600
+      }
+    },
+    "CLA": {
+      "category": "sedan",
+      "year_ref": 2021,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 26800,
+      "count": 3,
+      "min_year": 2016,
+      "max_year": 2021,
+      "by_year": {
+        "2021": 28400,
+        "2016": 13000
+      }
+    },
+    "CLA-180": {
+      "category": "sedan",
+      "year_ref": 2018,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 13200,
+      "count": 1,
+      "min_year": 2018,
+      "max_year": 2018,
+      "by_year": {
+        "2018": 13200
+      }
+    },
+    "CLA-250": {
+      "category": "sedan",
+      "year_ref": 2016,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 15000,
+      "count": 14,
+      "min_year": 2014,
+      "max_year": 2023,
+      "by_year": {
+        "2014": 12500,
+        "2023": 35000,
+        "2021": 33000,
+        "2016": 15500,
+        "2017": 14850,
+        "2015": 14500,
+        "2018": 12950
+      }
+    },
+    "CLA-350": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 13500,
+      "count": 1,
+      "min_year": 2015,
+      "max_year": 2015,
+      "by_year": {
+        "2015": 13500
+      }
+    },
+    "CLA-45": {
+      "category": "sedan",
+      "year_ref": 2016,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 16300,
+      "count": 1,
+      "min_year": 2016,
+      "max_year": 2016,
+      "by_year": {
+        "2016": 16300
+      }
+    },
+    "CLK-320": {
+      "category": "sedan",
+      "year_ref": 2007,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 12000,
+      "count": 1,
+      "min_year": 2007,
+      "max_year": 2007,
+      "by_year": {
+        "2007": 12000
+      }
+    },
+    "CLS": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 17000,
+      "count": 3,
+      "min_year": 2012,
+      "max_year": 2016,
+      "by_year": {
+        "2012": 19000,
+        "2016": 15500
+      }
+    },
+    "CLS-250": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 21500,
+      "count": 2,
+      "min_year": 2015,
+      "max_year": 2015,
+      "by_year": {
+        "2015": 18700
+      }
+    },
+    "CLS-350": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 15500,
+      "count": 3,
+      "min_year": 2007,
+      "max_year": 2012,
+      "by_year": {
+        "2012": 19500,
+        "2007": 10000
+      }
+    },
+    "CLS-550": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 18500,
+      "count": 1,
+      "min_year": 2013,
+      "max_year": 2013,
+      "by_year": {
+        "2013": 18500
+      }
+    },
+    "CLS-63": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 25000,
+      "count": 2,
+      "min_year": 2012,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 21500,
+        "2012": 25000
+      }
+    },
+    "CLS63": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 29500,
+      "count": 1,
+      "min_year": 2012,
+      "max_year": 2012,
+      "by_year": {
+        "2012": 29500
+      }
+    },
+    "E190": {
+      "category": "sedan",
+      "year_ref": 1986,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 5800,
+      "count": 1,
+      "min_year": 1986,
+      "max_year": 1986,
+      "by_year": {
+        "1986": 5800
+      }
+    },
+    "E200": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 13000,
+      "count": 8,
+      "min_year": 2010,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 17650,
+        "2010": 10500,
+        "2013": 13000,
+        "2011": 11200,
+        "2012": 11500
+      }
+    },
+    "E220": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12500,
+      "count": 21,
+      "min_year": 2001,
+      "max_year": 2020,
+      "by_year": {
+        "2011": 11100,
+        "2017": 21600,
+        "2013": 10000,
+        "2016": 15500,
+        "2008": 8700,
+        "2015": 15000,
+        "2012": 12200,
+        "2018": 22000,
+        "2020": 20000,
+        "2014": 12400,
+        "2001": 7000
+      }
+    },
+    "E240": {
+      "category": "sedan",
+      "year_ref": 2004,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 7700,
+      "count": 1,
+      "min_year": 2004,
+      "max_year": 2004,
+      "by_year": {
+        "2004": 7700
+      }
+    },
+    "E250": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 13000,
+      "count": 7,
+      "min_year": 2010,
+      "max_year": 2016,
+      "by_year": {
+        "2010": 10600,
+        "2016": 15500,
+        "2015": 18000,
+        "2012": 12500,
+        "2013": 13000
+      }
+    },
+    "E300": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 14000,
+      "count": 20,
+      "min_year": 1986,
+      "max_year": 2019,
+      "by_year": {
+        "2011": 12000,
+        "2010": 10000,
+        "2013": 13500,
+        "1986": 6000,
+        "2014": 16500,
+        "2012": 13000,
+        "2017": 25100,
+        "2019": 25000,
+        "2015": 16000,
+        "2018": 26000
+      }
+    },
+    "E320": {
+      "category": "sedan",
+      "year_ref": 1986,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 5700,
+      "count": 2,
+      "min_year": 1985,
+      "max_year": 1986,
+      "by_year": {
+        "1985": 4000,
+        "1986": 5700
+      }
+    },
+    "E350": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 15000,
+      "count": 26,
+      "min_year": 2010,
+      "max_year": 2015,
+      "by_year": {
+        "2012": 13700,
+        "2014": 17000,
+        "2011": 13350,
+        "2015": 16000,
+        "2013": 13750,
+        "2010": 12200
+      }
+    },
+    "E400": {
+      "category": "sedan",
+      "year_ref": 2016,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 16000,
+      "count": 1,
+      "min_year": 2016,
+      "max_year": 2016,
+      "by_year": {
+        "2016": 16000
+      }
+    },
+    "E43": {
+      "category": "sedan",
+      "year_ref": 2018,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 36000,
+      "count": 1,
+      "min_year": 2018,
+      "max_year": 2018,
+      "by_year": {
+        "2018": 36000
+      }
+    },
+    "E500": {
+      "category": "sedan",
+      "year_ref": 2024,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 60000,
+      "count": 2,
+      "min_year": 2014,
+      "max_year": 2024,
+      "by_year": {
+        "2024": 60000,
+        "2014": 25000
+      }
+    },
+    "G-Class": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 45000,
+      "count": 1,
+      "min_year": 2015,
+      "max_year": 2015,
+      "by_year": {
+        "2015": 45000
+      }
+    },
+    "G63": {
+      "category": "sedan",
+      "year_ref": 2020,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 140000,
+      "count": 1,
+      "min_year": 2020,
+      "max_year": 2020,
+      "by_year": {
+        "2020": 140000
+      }
+    },
+    "GL-63": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 35000,
+      "count": 2,
+      "min_year": 2014,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 28900
+      }
+    },
+    "GL500": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 13000,
+      "count": 3,
+      "min_year": 2010,
+      "max_year": 2012,
+      "by_year": {
+        "2012": 15500,
+        "2010": 9500
+      }
+    },
+    "GLA": {
+      "category": "sedan",
+      "year_ref": 2018,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 20000,
+      "count": 2,
+      "min_year": 2016,
+      "max_year": 2018,
+      "by_year": {
+        "2016": 20000,
+        "2018": 14000
+      }
+    },
+    "GLA-250": {
+      "category": "sedan",
+      "year_ref": 2019,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 19500,
+      "count": 2,
+      "min_year": 2016,
+      "max_year": 2019,
+      "by_year": {
+        "2019": 19500,
+        "2016": 16500
+      }
+    },
+    "GLA-500": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 12500,
+      "count": 1,
+      "min_year": 2012,
+      "max_year": 2012,
+      "by_year": {
+        "2012": 12500
+      }
+    },
+    "GLC": {
+      "category": "suv",
+      "year_ref": 2018,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 29800,
+      "count": 3,
+      "min_year": 2016,
+      "max_year": 2023,
+      "by_year": {
+        "2016": 21000,
+        "2023": 37000,
+        "2018": 29800
+      }
+    },
+    "GLC-300": {
+      "category": "suv",
+      "year_ref": 2020,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 24000,
+      "count": 2,
+      "min_year": 2019,
+      "max_year": 2020,
+      "by_year": {
+        "2020": 23800,
+        "2019": 24000
+      }
+    },
+    "GLC-350": {
+      "category": "suv",
+      "year_ref": 2018,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 20000,
+      "count": 2,
+      "min_year": 2014,
+      "max_year": 2018,
+      "by_year": {
+        "2018": 20000,
+        "2014": 13700
+      }
+    },
+    "GLC43": {
+      "category": "suv",
+      "year_ref": 2022,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 43000,
+      "count": 1,
+      "min_year": 2022,
+      "max_year": 2022,
+      "by_year": {
+        "2022": 43000
+      }
+    },
+    "GLK-220": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 11500,
+      "count": 1,
+      "min_year": 2013,
+      "max_year": 2013,
+      "by_year": {
+        "2013": 11500
+      }
+    },
+    "GLS 500": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 13800,
+      "count": 1,
+      "min_year": 2012,
+      "max_year": 2012,
+      "by_year": {
+        "2012": 13800
+      }
+    },
+    "GLS-300": {
+      "category": "sedan",
+      "year_ref": 2019,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 19000,
+      "count": 1,
+      "min_year": 2019,
+      "max_year": 2019,
+      "by_year": {
+        "2019": 19000
+      }
+    },
+    "GLS-450": {
+      "category": "sedan",
+      "year_ref": 2017,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 28000,
+      "count": 1,
+      "min_year": 2017,
+      "max_year": 2017,
+      "by_year": {
+        "2017": 28000
+      }
+    },
+    "ML": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 11800,
+      "count": 1,
+      "min_year": 2010,
+      "max_year": 2010,
+      "by_year": {
+        "2010": 11800
+      }
+    },
+    "ML-350": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 13500,
+      "count": 1,
+      "min_year": 2011,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 13500
+      }
+    },
+    "ML-63": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 13000,
+      "count": 1,
+      "min_year": 2013,
+      "max_year": 2013,
+      "by_year": {
+        "2013": 13000
+      }
+    },
+    "Maybach": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 20000,
+      "count": 1,
+      "min_year": 2013,
+      "max_year": 2013,
+      "by_year": {
+        "2013": 20000
+      }
+    },
+    "R 300": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 7500,
+      "count": 1,
+      "min_year": 2011,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 7500
+      }
+    },
+    "S-CLS": {
+      "category": "sedan",
+      "year_ref": 2018,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 32500,
+      "count": 2,
+      "min_year": 2016,
+      "max_year": 2018,
+      "by_year": {
+        "2016": 29000,
+        "2018": 32500
+      }
+    },
+    "S300": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 14000,
+      "count": 1,
+      "min_year": 2013,
+      "max_year": 2013,
+      "by_year": {
+        "2013": 14000
+      }
+    },
+    "S320": {
+      "category": "sedan",
+      "year_ref": 2008,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8500,
+      "count": 1,
+      "min_year": 2008,
+      "max_year": 2008,
+      "by_year": {
+        "2008": 8500
+      }
+    },
+    "S350": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 14000,
+      "count": 6,
+      "min_year": 2006,
+      "max_year": 2014,
+      "by_year": {
+        "2006": 12500,
+        "2011": 14000,
+        "2014": 30000
+      }
+    },
+    "S500": {
+      "category": "sedan",
+      "year_ref": 2007,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 16300,
+      "count": 2,
+      "min_year": 1984,
+      "max_year": 2007,
+      "by_year": {
+        "1984": 6000,
+        "2007": 16300
+      }
+    },
+    "S550": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 15500,
+      "count": 11,
+      "min_year": 2010,
+      "max_year": 2016,
+      "by_year": {
+        "2010": 13000,
+        "2011": 17600,
+        "2016": 26000,
+        "2013": 14500
+      }
+    },
+    "S63": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 35000,
+      "count": 3,
+      "min_year": 2008,
+      "max_year": 2015,
+      "by_year": {
+        "2008": 13000,
+        "2015": 35000
+      }
+    },
+    "SEL-500": {
+      "category": "sedan",
+      "year_ref": 1992,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 8500,
+      "count": 1,
+      "min_year": 1992,
+      "max_year": 1992,
+      "by_year": {
+        "1992": 8500
+      }
+    },
+    "SLS-360": {
+      "category": "sedan",
+      "year_ref": 2005,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 10000,
+      "count": 1,
+      "min_year": 2005,
+      "max_year": 2005,
+      "by_year": {
+        "2005": 10000
+      }
+    },
+    "Sprinter": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 17000,
+      "count": 4,
+      "min_year": 2012,
+      "max_year": 2022,
+      "by_year": {
+        "2012": 14750,
+        "2014": 15700,
+        "2022": 40000
+      }
+    },
+    "VIANO": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 19500,
+      "count": 1,
+      "min_year": 2014,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 19500
+      }
+    },
+    "VITO van": {
+      "category": "sedan",
+      "year_ref": 2016,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 24000,
+      "count": 4,
+      "min_year": 2015,
+      "max_year": 2025,
+      "by_year": {
+        "2025": 70000,
+        "2015": 12750,
+        "2016": 24000
+      }
+    }
+  },
+  "Nissan": {
+    "Almera": {
+      "category": "sedan",
+      "year_ref": 2008,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "manual",
+      "base": 3800,
+      "count": 1,
+      "min_year": 2008,
+      "max_year": 2008,
+      "by_year": {
+        "2008": 3800
+      }
+    },
+    "Altima": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9500,
+      "count": 38,
+      "min_year": 2010,
+      "max_year": 2024,
+      "by_year": {
+        "2020": 13500,
+        "2016": 9000,
+        "2024": 17000,
+        "2013": 9700,
+        "2015": 11000,
+        "2012": 8200,
+        "2017": 11500,
+        "2011": 9000,
+        "2014": 9600,
+        "2022": 19250,
+        "2019": 14500,
+        "2010": 9500,
+        "2018": 8300
+      }
+    },
+    "Infinity": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 17000,
+      "count": 2,
+      "min_year": 2014,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 17000
+      }
+    },
+    "Kicks": {
+      "category": "sedan",
+      "year_ref": 2019,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 11700,
+      "count": 3,
+      "min_year": 2019,
+      "max_year": 2020,
+      "by_year": {
+        "2019": 11200,
+        "2020": 11700
+      }
+    },
+    "Maxima": {
+      "category": "sedan",
+      "year_ref": 2016,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 10500,
+      "count": 21,
+      "min_year": 2009,
+      "max_year": 2018,
+      "by_year": {
+        "2018": 11700,
+        "2009": 7650,
+        "2016": 12350,
+        "2014": 8500,
+        "2012": 8650,
+        "2013": 8700,
+        "2017": 10500
+      }
+    },
+    "Murano": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 9500,
+      "count": 4,
+      "min_year": 2006,
+      "max_year": 2013,
+      "by_year": {
+        "2007": 5500,
+        "2006": 7500,
+        "2013": 9500,
+        "2010": 9600
+      }
+    },
+    "Pathfinder": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 12500,
+      "count": 14,
+      "min_year": 2013,
+      "max_year": 2022,
+      "by_year": {
+        "2014": 12250,
+        "2015": 12000,
+        "2018": 13000,
+        "2022": 25000,
+        "2013": 12500
+      }
+    },
+    "Patrol": {
+      "category": "suv",
+      "year_ref": 2015,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 19500,
+      "count": 5,
+      "min_year": 2011,
+      "max_year": 2015,
+      "by_year": {
+        "2015": 19700,
+        "2011": 13500,
+        "2012": 9500
+      }
+    },
+    "Quest": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 9200,
+      "count": 1,
+      "min_year": 2012,
+      "max_year": 2012,
+      "by_year": {
+        "2012": 9200
+      }
+    },
+    "Rogue": {
+      "category": "sedan",
+      "year_ref": 2016,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12000,
+      "count": 12,
+      "min_year": 2014,
+      "max_year": 2019,
+      "by_year": {
+        "2017": 12800,
+        "2015": 11000,
+        "2018": 18000,
+        "2016": 11000,
+        "2019": 12500,
+        "2014": 8700
+      }
+    },
+    "SANTRA": {
+      "category": "sedan",
+      "year_ref": 2020,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 11500,
+      "count": 4,
+      "min_year": 2016,
+      "max_year": 2024,
+      "by_year": {
+        "2016": 10000,
+        "2020": 11250,
+        "2024": 14500
+      }
+    },
+    "Versa": {
+      "category": "sedan",
+      "year_ref": 2021,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10500,
+      "count": 2,
+      "min_year": 2020,
+      "max_year": 2021,
+      "by_year": {
+        "2020": 9900,
+        "2021": 10500
+      }
+    },
+    "X-Trail": {
+      "category": "suv",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12000,
+      "count": 1,
+      "min_year": 2015,
+      "max_year": 2015,
+      "by_year": {
+        "2015": 12000
+      }
+    },
+    "ارمادو": {
+      "category": "sedan",
+      "year_ref": 2020,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 24200,
+      "count": 2,
+      "min_year": 2011,
+      "max_year": 2020,
+      "by_year": {
+        "2020": 24200,
+        "2011": 9500
+      }
+    }
+  },
+  "OPEL": {
+    "ASTRA": {
+      "category": "sedan",
+      "year_ref": 2006,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 5700,
+      "count": 2,
+      "min_year": 2001,
+      "max_year": 2006,
+      "by_year": {
+        "2006": 5700,
+        "2001": 4500
+      }
+    },
+    "Ascona": {
+      "category": "sedan",
+      "year_ref": 2005,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 5000,
+      "count": 1,
+      "min_year": 2005,
+      "max_year": 2005,
+      "by_year": {
+        "2005": 5000
+      }
+    },
+    "Omega": {
+      "category": "sedan",
+      "year_ref": 2000,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 5200,
+      "count": 3,
+      "min_year": 1992,
+      "max_year": 2002,
+      "by_year": {
+        "2000": 5500,
+        "2002": 5200,
+        "1992": 3400
+      }
+    },
+    "Vectra": {
+      "category": "sedan",
+      "year_ref": 2008,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 5500,
+      "count": 2,
+      "min_year": 2002,
+      "max_year": 2008,
+      "by_year": {
+        "2002": 4500,
+        "2008": 5500
+      }
+    },
+    "ZAFIRA": {
+      "category": "sedan",
+      "year_ref": 2016,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9200,
+      "count": 1,
+      "min_year": 2016,
+      "max_year": 2016,
+      "by_year": {
+        "2016": 9200
+      }
+    }
+  },
+  "PONTIAC": {
+    "G6": {
+      "category": "sedan",
+      "year_ref": 2008,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8500,
+      "count": 1,
+      "min_year": 2008,
+      "max_year": 2008,
+      "by_year": {
+        "2008": 8500
+      }
+    }
+  },
+  "PROTON": {
+    "GEN_2": {
+      "category": "sedan",
+      "year_ref": 2007,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 5000,
+      "count": 1,
+      "min_year": 2007,
+      "max_year": 2007,
+      "by_year": {
+        "2007": 5000
+      }
+    },
+    "WAJA": {
+      "category": "sedan",
+      "year_ref": 2005,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 5200,
+      "count": 3,
+      "min_year": 2005,
+      "max_year": 2006,
+      "by_year": {
+        "2005": 4750,
+        "2006": 5200
+      }
+    },
+    "WIRA": {
+      "category": "sedan",
+      "year_ref": 2005,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "manual",
+      "base": 3600,
+      "count": 1,
+      "min_year": 2005,
+      "max_year": 2005,
+      "by_year": {
+        "2005": 3600
+      }
+    }
+  },
+  "Peugeot": {
+    "206": {
+      "category": "sedan",
+      "year_ref": 2006,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 4700,
+      "count": 8,
+      "min_year": 2004,
+      "max_year": 2008,
+      "by_year": {
+        "2007": 4650,
+        "2008": 5000,
+        "2005": 4850,
+        "2006": 4650,
+        "2004": 4500
+      }
+    },
+    "207": {
+      "category": "sedan",
+      "year_ref": 2019,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 6500,
+      "count": 4,
+      "min_year": 2008,
+      "max_year": 2019,
+      "by_year": {
+        "2009": 5500,
+        "2019": 6850,
+        "2008": 5500
+      }
+    },
+    "208": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 7500,
+      "count": 1,
+      "min_year": 2014,
+      "max_year": 2014,
+      "by_year": {
+        "2014": 7500
+      }
+    },
+    "3008": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8500,
+      "count": 1,
+      "min_year": 2015,
+      "max_year": 2015,
+      "by_year": {
+        "2015": 8500
+      }
+    },
+    "307": {
+      "category": "sedan",
+      "year_ref": 2004,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 5000,
+      "count": 5,
+      "min_year": 2003,
+      "max_year": 2007,
+      "by_year": {
+        "2004": 3500,
+        "2003": 6000,
+        "2007": 5000
+      }
+    },
+    "308": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 7700,
+      "count": 4,
+      "min_year": 2010,
+      "max_year": 2017,
+      "by_year": {
+        "2010": 5300,
+        "2017": 9000,
+        "2014": 7250
+      }
+    },
+    "405": {
+      "category": "sedan",
+      "year_ref": 2005,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 3300,
+      "count": 6,
+      "min_year": 1993,
+      "max_year": 2007,
+      "by_year": {
+        "2007": 3400,
+        "2004": 4000,
+        "2005": 3000,
+        "1993": 2500,
+        "1994": 3200
+      }
+    },
+    "406": {
+      "category": "sedan",
+      "year_ref": 1999,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 3900,
+      "count": 1,
+      "min_year": 1999,
+      "max_year": 1999,
+      "by_year": {
+        "1999": 3900
+      }
+    },
+    "407": {
+      "category": "sedan",
+      "year_ref": 2007,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 4700,
+      "count": 2,
+      "min_year": 2006,
+      "max_year": 2007,
+      "by_year": {
+        "2007": 4700,
+        "2006": 4200
+      }
+    },
+    "5008": {
+      "category": "sedan",
+      "year_ref": 2018,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12500,
+      "count": 1,
+      "min_year": 2018,
+      "max_year": 2018,
+      "by_year": {
+        "2018": 12500
+      }
+    },
+    "505": {
+      "category": "sedan",
+      "year_ref": 1980,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 1100,
+      "count": 1,
+      "min_year": 1980,
+      "max_year": 1980,
+      "by_year": {
+        "1980": 1100
+      }
+    },
+    "508": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8500,
+      "count": 2,
+      "min_year": 2012,
+      "max_year": 2014,
+      "by_year": {
+        "2012": 8200,
+        "2014": 8500
+      }
+    },
+    "607": {
+      "category": "sedan",
+      "year_ref": 2002,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 6500,
+      "count": 1,
+      "min_year": 2002,
+      "max_year": 2002,
+      "by_year": {
+        "2002": 6500
+      }
+    },
+    "807": {
+      "category": "sedan",
+      "year_ref": 2006,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 6700,
+      "count": 1,
+      "min_year": 2006,
+      "max_year": 2006,
+      "by_year": {
+        "2006": 6700
+      }
+    },
+    "Boxer": {
+      "category": "sedan",
+      "year_ref": 2019,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "manual",
+      "base": 15000,
+      "count": 1,
+      "min_year": 2019,
+      "max_year": 2019,
+      "by_year": {
+        "2019": 15000
+      }
+    },
+    "Landtrek": {
+      "category": "sedan",
+      "year_ref": 2025,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 35000,
+      "count": 1,
+      "min_year": 2025,
+      "max_year": 2025,
+      "by_year": {
+        "2025": 35000
+      }
+    }
+  },
+  "Porsche": {
+    "Cayenne": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 11700,
+      "count": 11,
+      "min_year": 2006,
+      "max_year": 2013,
+      "by_year": {
+        "2012": 13000,
+        "2006": 9200,
+        "2013": 13700,
+        "2011": 12000
+      }
+    },
+    "Cayenne GTS": {
+      "category": "sedan",
+      "year_ref": 2016,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 26000,
+      "count": 1,
+      "min_year": 2016,
+      "max_year": 2016,
+      "by_year": {
+        "2016": 26000
+      }
+    },
+    "Cayenne S": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 14800,
+      "count": 4,
+      "min_year": 2009,
+      "max_year": 2013,
+      "by_year": {
+        "2013": 18400,
+        "2009": 10000,
+        "2011": 10000
+      }
+    },
+    "Panamera": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 16500,
+      "count": 2,
+      "min_year": 2011,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 13750
+      }
+    }
+  },
+  "Range Rover": {
+    "Discovery": {
+      "category": "sedan",
+      "year_ref": 2017,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 15500,
+      "count": 9,
+      "min_year": 2005,
+      "max_year": 2023,
+      "by_year": {
+        "2017": 17500,
+        "2005": 9000,
+        "2023": 27000,
+        "2013": 10000,
+        "2016": 14300,
+        "2011": 9600
+      }
+    },
+    "Evoque": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12800,
+      "count": 18,
+      "min_year": 2012,
+      "max_year": 2016,
+      "by_year": {
+        "2015": 14000,
+        "2012": 10850,
+        "2013": 11000,
+        "2016": 18600
+      }
+    },
+    "LR2": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 7200,
+      "count": 1,
+      "min_year": 2012,
+      "max_year": 2012,
+      "by_year": {
+        "2012": 7200
+      }
+    },
+    "P38A": {
+      "category": "sedan",
+      "year_ref": 2000,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "manual",
+      "base": 4200,
+      "count": 1,
+      "min_year": 2000,
+      "max_year": 2000,
+      "by_year": {
+        "2000": 4200
+      }
+    },
+    "Sport": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 16500,
+      "count": 61,
+      "min_year": 2005,
+      "max_year": 2020,
+      "by_year": {
+        "2015": 22000,
+        "2014": 21500,
+        "2012": 12000,
+        "2011": 11350,
+        "2016": 24000,
+        "2013": 11000,
+        "2017": 21500,
+        "2008": 9250,
+        "2006": 8000,
+        "2009": 9000,
+        "2005": 7500,
+        "2020": 38000,
+        "2018": 35000,
+        "2019": 34000
+      }
+    },
+    "Velar": {
+      "category": "sedan",
+      "year_ref": 2019,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 30000,
+      "count": 6,
+      "min_year": 2018,
+      "max_year": 2022,
+      "by_year": {
+        "2018": 26000,
+        "2019": 31000,
+        "2022": 42000,
+        "2020": 29990
+      }
+    },
+    "Vogue": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 24000,
+      "count": 22,
+      "min_year": 1998,
+      "max_year": 2019,
+      "by_year": {
+        "2012": 12500,
+        "2014": 23750,
+        "2015": 23000,
+        "2016": 25000,
+        "2019": 50000,
+        "2013": 24500,
+        "1998": 5000,
+        "2011": 11500
+      }
+    }
+  },
+  "Renault": {
+    "19": {
+      "category": "sedan",
+      "year_ref": 1994,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 3500,
+      "count": 1,
+      "min_year": 1994,
+      "max_year": 1994,
+      "by_year": {
+        "1994": 3500
+      }
+    },
+    "Clio": {
+      "category": "sedan",
+      "year_ref": 2006,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 5000,
+      "count": 4,
+      "min_year": 2003,
+      "max_year": 2007,
+      "by_year": {
+        "2003": 5000,
+        "2005": 4500,
+        "2007": 4000,
+        "2006": 5000
+      }
+    },
+    "Fluence": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 6500,
+      "count": 1,
+      "min_year": 2010,
+      "max_year": 2010,
+      "by_year": {
+        "2010": 6500
+      }
+    },
+    "KOLEOS": {
+      "category": "sedan",
+      "year_ref": 2017,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12700,
+      "count": 1,
+      "min_year": 2017,
+      "max_year": 2017,
+      "by_year": {
+        "2017": 12700
+      }
+    },
+    "Megane": {
+      "category": "sedan",
+      "year_ref": 2007,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 6200,
+      "count": 4,
+      "min_year": 2005,
+      "max_year": 2008,
+      "by_year": {
+        "2005": 6200,
+        "2007": 5700,
+        "2006": 6000,
+        "2008": 6700
+      }
+    },
+    "Symbol": {
+      "category": "sedan",
+      "year_ref": 2020,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 8000,
+      "count": 1,
+      "min_year": 2020,
+      "max_year": 2020,
+      "by_year": {
+        "2020": 8000
+      }
+    },
+    "qm": {
+      "category": "sedan",
+      "year_ref": 2017,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12500,
+      "count": 1,
+      "min_year": 2017,
+      "max_year": 2017,
+      "by_year": {
+        "2017": 12500
+      }
+    }
+  },
+  "Roewe": {
+    "E350": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 5700,
+      "count": 1,
+      "min_year": 2011,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 5700
+      }
+    },
+    "MG550": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 6400,
+      "count": 1,
+      "min_year": 2010,
+      "max_year": 2010,
+      "by_year": {
+        "2010": 6400
+      }
+    }
+  },
+  "SAIPA": {
+    "131XL": {
+      "category": "sedan",
+      "year_ref": 2020,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "manual",
+      "base": 9500,
+      "count": 2,
+      "min_year": 2020,
+      "max_year": 2020,
+      "by_year": {
+        "2020": 9350
+      }
+    },
+    "Amisa": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 4800,
+      "count": 1,
+      "min_year": 2011,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 4800
+      }
+    },
+    "Codro": {
+      "category": "sedan",
+      "year_ref": 2002,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 2500,
+      "count": 1,
+      "min_year": 2002,
+      "max_year": 2002,
+      "by_year": {
+        "2002": 2500
+      }
+    },
+    "Quick": {
+      "category": "sedan",
+      "year_ref": 2020,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 5700,
+      "count": 1,
+      "min_year": 2020,
+      "max_year": 2020,
+      "by_year": {
+        "2020": 5700
+      }
+    },
+    "SAPA": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 6500,
+      "count": 8,
+      "min_year": 2002,
+      "max_year": 2020,
+      "by_year": {
+        "2004": 4000,
+        "2011": 6300,
+        "2020": 8000,
+        "2008": 6600,
+        "2002": 2900,
+        "2019": 6500,
+        "2010": 6000
+      }
+    },
+    "Saina": {
+      "category": "sedan",
+      "year_ref": 2019,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 6500,
+      "count": 1,
+      "min_year": 2019,
+      "max_year": 2019,
+      "by_year": {
+        "2019": 6500
+      }
+    }
+  },
+  "SAMSUNG": {
+    "Qm5": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10900,
+      "count": 1,
+      "min_year": 2011,
+      "max_year": 2011,
+      "by_year": {
+        "2011": 10900
+      }
+    },
+    "Qm6": {
+      "category": "sedan",
+      "year_ref": 2017,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12500,
+      "count": 1,
+      "min_year": 2017,
+      "max_year": 2017,
+      "by_year": {
+        "2017": 12500
+      }
+    },
+    "SM3": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 8400,
+      "count": 12,
+      "min_year": 2004,
+      "max_year": 2015,
+      "by_year": {
+        "2004": 5250,
+        "2013": 77000,
+        "2005": 5550,
+        "2015": 11000,
+        "2010": 7500,
+        "2011": 8700,
+        "2014": 9200
+      }
+    },
+    "SM5": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9800,
+      "count": 5,
+      "min_year": 2011,
+      "max_year": 2014,
+      "by_year": {
+        "2012": 9650,
+        "2011": 9300,
+        "2014": 10500
+      }
+    },
+    "SM7": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9200,
+      "count": 3,
+      "min_year": 2011,
+      "max_year": 2014,
+      "by_year": {
+        "2012": 9200,
+        "2014": 11900,
+        "2011": 8900
+      }
+    },
+    "Sm6": {
+      "category": "sedan",
+      "year_ref": 2018,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 13200,
+      "count": 1,
+      "min_year": 2018,
+      "max_year": 2018,
+      "by_year": {
+        "2018": 13200
+      }
+    },
+    "Xm3": {
+      "category": "sedan",
+      "year_ref": 2020,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12500,
+      "count": 1,
+      "min_year": 2020,
+      "max_year": 2020,
+      "by_year": {
+        "2020": 12500
+      }
+    }
+  },
+  "SEAT": {
+    "Cordoba": {
+      "category": "sedan",
+      "year_ref": 2005,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 5000,
+      "count": 1,
+      "min_year": 2005,
+      "max_year": 2005,
+      "by_year": {
+        "2005": 5000
+      }
+    }
+  },
+  "SHAM": {
+    "Siamco": {
+      "category": "sedan",
+      "year_ref": 2008,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 3600,
+      "count": 3,
+      "min_year": 2007,
+      "max_year": 2010,
+      "by_year": {
+        "2007": 3600,
+        "2008": 3700,
+        "2010": 3200
+      }
+    }
+  },
+  "SKODA": {
+    "Elegance": {
+      "category": "sedan",
+      "year_ref": 2006,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 7000,
+      "count": 3,
+      "min_year": 2006,
+      "max_year": 2008,
+      "by_year": {
+        "2008": 7500,
+        "2006": 6500
+      }
+    },
+    "Fabia": {
+      "category": "sedan",
+      "year_ref": 2002,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 3500,
+      "count": 1,
+      "min_year": 2002,
+      "max_year": 2002,
+      "by_year": {
+        "2002": 3500
+      }
+    },
+    "Felicia": {
+      "category": "sedan",
+      "year_ref": 1998,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "manual",
+      "base": 3500,
+      "count": 1,
+      "min_year": 1998,
+      "max_year": 1998,
+      "by_year": {
+        "1998": 3500
+      }
+    },
+    "Octavia": {
+      "category": "sedan",
+      "year_ref": 2003,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 5500,
+      "count": 6,
+      "min_year": 1999,
+      "max_year": 2015,
+      "by_year": {
+        "2002": 5500,
+        "2009": 7000,
+        "1999": 3700,
+        "2015": 8100,
+        "2003": 5200,
+        "2001": 4000
+      }
+    },
+    "Pick-up": {
+      "category": "sedan",
+      "year_ref": 1995,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 2300,
+      "count": 5,
+      "min_year": 1993,
+      "max_year": 1998,
+      "by_year": {
+        "1995": 2200,
+        "1996": 3200,
+        "1998": 2300,
+        "1993": 2400
+      }
+    },
+    "Superb": {
+      "category": "sedan",
+      "year_ref": 2016,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 7000,
+      "count": 4,
+      "min_year": 2009,
+      "max_year": 2021,
+      "by_year": {
+        "2016": 6700,
+        "2009": 6500,
+        "2015": 7000,
+        "2021": 19000
+      }
+    }
+  },
+  "Senova": {
+    "Baic x25": {
+      "category": "sedan",
+      "year_ref": 2019,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8500,
+      "count": 1,
+      "min_year": 2019,
+      "max_year": 2019,
+      "by_year": {
+        "2019": 8500
+      }
+    }
+  },
+  "Ssang Yong": {
+    "Actyon": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 7000,
+      "count": 1,
+      "min_year": 2010,
+      "max_year": 2010,
+      "by_year": {
+        "2010": 7000
+      }
+    },
+    "Caeron": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8200,
+      "count": 1,
+      "min_year": 2012,
+      "max_year": 2012,
+      "by_year": {
+        "2012": 8200
+      }
+    },
+    "Chairman": {
+      "category": "sedan",
+      "year_ref": 2000,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 6000,
+      "count": 1,
+      "min_year": 2000,
+      "max_year": 2000,
+      "by_year": {
+        "2000": 6000
+      }
+    },
+    "Corando": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12000,
+      "count": 2,
+      "min_year": 2011,
+      "max_year": 2015,
+      "by_year": {
+        "2011": 8000,
+        "2015": 12000
+      }
+    },
+    "RODIUS": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 8900,
+      "count": 1,
+      "min_year": 2010,
+      "max_year": 2010,
+      "by_year": {
+        "2010": 8900
+      }
+    },
+    "Rexton": {
+      "category": "sedan",
+      "year_ref": 2014,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12500,
+      "count": 2,
+      "min_year": 2012,
+      "max_year": 2014,
+      "by_year": {
+        "2012": 10000,
+        "2014": 12500
+      }
+    },
+    "Song": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8200,
+      "count": 3,
+      "min_year": 2007,
+      "max_year": 2013,
+      "by_year": {
+        "2007": 4000,
+        "2013": 8250
+      }
+    },
+    "Tivoli": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10500,
+      "count": 15,
+      "min_year": 2015,
+      "max_year": 2019,
+      "by_year": {
+        "2015": 10500,
+        "2019": 9700,
+        "2016": 10550
+      }
+    }
+  },
+  "Subaro": {
+    "Impreza": {
+      "category": "sedan",
+      "year_ref": 2005,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 5500,
+      "count": 9,
+      "min_year": 2001,
+      "max_year": 2007,
+      "by_year": {
+        "2007": 6500,
+        "2001": 5200,
+        "2006": 5500,
+        "2002": 5500,
+        "2005": 6100
+      }
+    },
+    "WRX": {
+      "category": "sedan",
+      "year_ref": 2016,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10500,
+      "count": 1,
+      "min_year": 2016,
+      "max_year": 2016,
+      "by_year": {
+        "2016": 10500
+      }
+    }
+  },
+  "Suzuki": {
+    "Faw": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "manual",
+      "base": 5400,
+      "count": 2,
+      "min_year": 2008,
+      "max_year": 2011,
+      "by_year": {
+        "2008": 3300,
+        "2011": 5400
+      }
+    },
+    "GAMBY": {
+      "category": "sedan",
+      "year_ref": 2008,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "manual",
+      "base": 3800,
+      "count": 1,
+      "min_year": 2008,
+      "max_year": 2008,
+      "by_year": {
+        "2008": 3800
+      }
+    },
+    "Isuzu": {
+      "category": "sedan",
+      "year_ref": 2020,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "manual",
+      "base": 16000,
+      "count": 1,
+      "min_year": 2020,
+      "max_year": 2020,
+      "by_year": {
+        "2020": 16000
+      }
+    },
+    "Liana": {
+      "category": "sedan",
+      "year_ref": 2007,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 6200,
+      "count": 2,
+      "min_year": 2006,
+      "max_year": 2007,
+      "by_year": {
+        "2007": 5800,
+        "2006": 6200
+      }
+    },
+    "Maruti": {
+      "category": "sedan",
+      "year_ref": 2003,
+      "hp": 175,
+      "cc": 1200,
+      "trans": "automatic",
+      "base": 1700,
+      "count": 2,
+      "min_year": 2003,
+      "max_year": 2003,
+      "by_year": {
+        "2003": 1600
+      }
+    },
+    "SWIFT": {
+      "category": "hatchback",
+      "year_ref": 2022,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 11700,
+      "count": 1,
+      "min_year": 2022,
+      "max_year": 2022,
+      "by_year": {
+        "2022": 11700
+      }
+    },
+    "Song": {
+      "category": "sedan",
+      "year_ref": 2006,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 3500,
+      "count": 3,
+      "min_year": 1996,
+      "max_year": 2007,
+      "by_year": {
+        "2006": 3000,
+        "1996": 3500,
+        "2007": 4200
+      }
+    },
+    "Vitara": {
+      "category": "suv",
+      "year_ref": 1997,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 4500,
+      "count": 1,
+      "min_year": 1997,
+      "max_year": 1997,
+      "by_year": {
+        "1997": 4500
+      }
+    }
+  },
+  "TATA": {
+    "T": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 3700,
+      "count": 2,
+      "min_year": 2009,
+      "max_year": 2010,
+      "by_year": {
+        "2009": 3300,
+        "2010": 3700
+      }
+    }
+  },
+  "TESLA": {
+    "MODEL 3": {
+      "category": "sedan",
+      "year_ref": 2020,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 27000,
+      "count": 1,
+      "min_year": 2020,
+      "max_year": 2020,
+      "by_year": {
+        "2020": 27000
+      }
+    }
+  },
+  "TOYOTA": {
+    "Avalon": {
+      "category": "sedan",
+      "year_ref": 2020,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 40000,
+      "count": 1,
+      "min_year": 2020,
+      "max_year": 2020,
+      "by_year": {
+        "2020": 40000
+      }
+    },
+    "C-HR": {
+      "category": "sedan",
+      "year_ref": 2021,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 17000,
+      "count": 2,
+      "min_year": 2018,
+      "max_year": 2021,
+      "by_year": {
+        "2018": 13500,
+        "2021": 17000
+      }
+    },
+    "Camry": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10800,
+      "count": 8,
+      "min_year": 2008,
+      "max_year": 2024,
+      "by_year": {
+        "2024": 20000,
+        "2008": 11600,
+        "2019": 17400,
+        "2015": 9250,
+        "2010": 10800,
+        "2011": 9000
+      }
+    },
+    "Corolla": {
+      "category": "sedan",
+      "year_ref": 2019,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12000,
+      "count": 9,
+      "min_year": 1993,
+      "max_year": 2024,
+      "by_year": {
+        "2009": 7500,
+        "2024": 16200,
+        "2018": 12000,
+        "2020": 15000,
+        "2019": 11200,
+        "2002": 4200,
+        "2021": 13000,
+        "1993": 3800
+      }
+    },
+    "FJ": {
+      "category": "sedan",
+      "year_ref": 2007,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 13000,
+      "count": 1,
+      "min_year": 2007,
+      "max_year": 2007,
+      "by_year": {
+        "2007": 13000
+      }
+    },
+    "Fortuner": {
+      "category": "sedan",
+      "year_ref": 2026,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 43500,
+      "count": 2,
+      "min_year": 2026,
+      "max_year": 2026,
+      "by_year": {
+        "2026": 41750
+      }
+    },
+    "GT86": {
+      "category": "sedan",
+      "year_ref": 2016,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 16000,
+      "count": 1,
+      "min_year": 2016,
+      "max_year": 2016,
+      "by_year": {
+        "2016": 16000
+      }
+    },
+    "Land Cruiser": {
+      "category": "suv",
+      "year_ref": 2017,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 40000,
+      "count": 5,
+      "min_year": 2011,
+      "max_year": 2025,
+      "by_year": {
+        "2017": 41000,
+        "2018": 40000,
+        "2016": 32000,
+        "2011": 28000,
+        "2025": 71000
+      }
+    },
+    "Levin": {
+      "category": "sedan",
+      "year_ref": 2024,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 17000,
+      "count": 2,
+      "min_year": 2021,
+      "max_year": 2024,
+      "by_year": {
+        "2021": 14000,
+        "2024": 17000
+      }
+    },
+    "Prado": {
+      "category": "suv",
+      "year_ref": 2017,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 28500,
+      "count": 3,
+      "min_year": 2016,
+      "max_year": 2018,
+      "by_year": {
+        "2018": 38000,
+        "2017": 28500,
+        "2016": 25000
+      }
+    },
+    "Prios": {
+      "category": "hatchback",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10500,
+      "count": 1,
+      "min_year": 2012,
+      "max_year": 2012,
+      "by_year": {
+        "2012": 10500
+      }
+    },
+    "Raize": {
+      "category": "sedan",
+      "year_ref": 2024,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 15500,
+      "count": 1,
+      "min_year": 2024,
+      "max_year": 2024,
+      "by_year": {
+        "2024": 15500
+      }
+    },
+    "Rav 4": {
+      "category": "suv",
+      "year_ref": 2021,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 18000,
+      "count": 1,
+      "min_year": 2021,
+      "max_year": 2021,
+      "by_year": {
+        "2021": 18000
+      }
+    },
+    "Rush": {
+      "category": "sedan",
+      "year_ref": 2021,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 14500,
+      "count": 1,
+      "min_year": 2021,
+      "max_year": 2021,
+      "by_year": {
+        "2021": 14500
+      }
+    },
+    "Tundra": {
+      "category": "sedan",
+      "year_ref": 2021,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 35000,
+      "count": 2,
+      "min_year": 2008,
+      "max_year": 2021,
+      "by_year": {
+        "2021": 35000,
+        "2008": 20000
+      }
+    },
+    "Youjin": {
+      "category": "sedan",
+      "year_ref": 2006,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 2500,
+      "count": 1,
+      "min_year": 2006,
+      "max_year": 2006,
+      "by_year": {
+        "2006": 2500
+      }
+    }
+  },
+  "VolksWagen": {
+    "Beetle": {
+      "category": "sedan",
+      "year_ref": 2004,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 6500,
+      "count": 1,
+      "min_year": 2004,
+      "max_year": 2004,
+      "by_year": {
+        "2004": 6500
+      }
+    },
+    "CC": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 10500,
+      "count": 20,
+      "min_year": 2009,
+      "max_year": 2015,
+      "by_year": {
+        "2011": 9000,
+        "2012": 11000,
+        "2015": 11600,
+        "2014": 12000,
+        "2010": 9500,
+        "2013": 10200,
+        "2009": 8500
+      }
+    },
+    "CROSSFOX": {
+      "category": "sedan",
+      "year_ref": 2007,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 4900,
+      "count": 2,
+      "min_year": 2007,
+      "max_year": 2007,
+      "by_year": {
+        "2007": 4700
+      }
+    },
+    "Caddy": {
+      "category": "sedan",
+      "year_ref": 2016,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 12500,
+      "count": 1,
+      "min_year": 2016,
+      "max_year": 2016,
+      "by_year": {
+        "2016": 12500
+      }
+    },
+    "Eos": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10200,
+      "count": 2,
+      "min_year": 2007,
+      "max_year": 2013,
+      "by_year": {
+        "2007": 8700,
+        "2013": 10200
+      }
+    },
+    "G T i": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9500,
+      "count": 1,
+      "min_year": 2012,
+      "max_year": 2012,
+      "by_year": {
+        "2012": 9500
+      }
+    },
+    "Gol": {
+      "category": "sedan",
+      "year_ref": 2005,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 4900,
+      "count": 1,
+      "min_year": 2005,
+      "max_year": 2005,
+      "by_year": {
+        "2005": 4900
+      }
+    },
+    "Golf": {
+      "category": "hatchback",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 13500,
+      "count": 11,
+      "min_year": 2009,
+      "max_year": 2025,
+      "by_year": {
+        "2015": 13500,
+        "2010": 6700,
+        "2014": 13500,
+        "2009": 6700,
+        "2013": 10800,
+        "2016": 18500,
+        "2025": 27000
+      }
+    },
+    "ID.4": {
+      "category": "sedan",
+      "year_ref": 2021,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 19800,
+      "count": 1,
+      "min_year": 2021,
+      "max_year": 2021,
+      "by_year": {
+        "2021": 19800
+      }
+    },
+    "Jetta": {
+      "category": "sedan",
+      "year_ref": 2013,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8700,
+      "count": 17,
+      "min_year": 2009,
+      "max_year": 2024,
+      "by_year": {
+        "2011": 8400,
+        "2009": 7050,
+        "2016": 9500,
+        "2013": 8250,
+        "2012": 8200,
+        "2017": 9500,
+        "2021": 13000,
+        "2024": 16000
+      }
+    },
+    "Multivan": {
+      "category": "sedan",
+      "year_ref": 2006,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 14000,
+      "count": 1,
+      "min_year": 2006,
+      "max_year": 2006,
+      "by_year": {
+        "2006": 14000
+      }
+    },
+    "Passat": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 9500,
+      "count": 33,
+      "min_year": 2001,
+      "max_year": 2019,
+      "by_year": {
+        "2014": 10600,
+        "2004": 5600,
+        "2019": 10000,
+        "2013": 8700,
+        "2010": 9750,
+        "2006": 7350,
+        "2011": 9000,
+        "2009": 8500,
+        "2016": 14500,
+        "2003": 6200,
+        "2007": 7800,
+        "2017": 11500,
+        "2018": 15000,
+        "2008": 9200,
+        "2001": 7000
+      }
+    },
+    "Phaeton": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 12000,
+      "count": 1,
+      "min_year": 2012,
+      "max_year": 2012,
+      "by_year": {
+        "2012": 12000
+      }
+    },
+    "Polo": {
+      "category": "sedan",
+      "year_ref": 2011,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 7200,
+      "count": 2,
+      "min_year": 2000,
+      "max_year": 2011,
+      "by_year": {
+        "2000": 5500,
+        "2011": 7200
+      }
+    },
+    "Saveiro": {
+      "category": "sedan",
+      "year_ref": 2006,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 4500,
+      "count": 2,
+      "min_year": 2004,
+      "max_year": 2006,
+      "by_year": {
+        "2006": 4500,
+        "2004": 2800
+      }
+    },
+    "Scirocco": {
+      "category": "sedan",
+      "year_ref": 2010,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10200,
+      "count": 4,
+      "min_year": 2010,
+      "max_year": 2013,
+      "by_year": {
+        "2010": 10200,
+        "2013": 9700
+      }
+    },
+    "Seguitar": {
+      "category": "sedan",
+      "year_ref": 2025,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 26000,
+      "count": 2,
+      "min_year": 2025,
+      "max_year": 2025,
+      "by_year": {
+        "2025": 26000
+      }
+    },
+    "T Ruck": {
+      "category": "sedan",
+      "year_ref": 2025,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 27500,
+      "count": 1,
+      "min_year": 2025,
+      "max_year": 2025,
+      "by_year": {
+        "2025": 27500
+      }
+    },
+    "Tayron": {
+      "category": "sedan",
+      "year_ref": 2025,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 33000,
+      "count": 1,
+      "min_year": 2025,
+      "max_year": 2025,
+      "by_year": {
+        "2025": 33000
+      }
+    },
+    "Tiguan": {
+      "category": "sedan",
+      "year_ref": 2017,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 13500,
+      "count": 11,
+      "min_year": 2009,
+      "max_year": 2025,
+      "by_year": {
+        "2017": 13500,
+        "2014": 10700,
+        "2016": 11000,
+        "2023": 29000,
+        "2025": 33000,
+        "2018": 16800,
+        "2024": 37000,
+        "2012": 10750,
+        "2009": 9000
+      }
+    },
+    "Touareg": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 300,
+      "cc": 3200,
+      "trans": "automatic",
+      "base": 10500,
+      "count": 14,
+      "min_year": 2004,
+      "max_year": 2017,
+      "by_year": {
+        "2010": 8500,
+        "2013": 10500,
+        "2004": 7700,
+        "2012": 10350,
+        "2015": 10750,
+        "2017": 18500,
+        "2011": 9100
+      }
+    },
+    "Vento": {
+      "category": "sedan",
+      "year_ref": 2015,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 8200,
+      "count": 1,
+      "min_year": 2015,
+      "max_year": 2015,
+      "by_year": {
+        "2015": 8200
+      }
+    },
+    "lumandol": {
+      "category": "sedan",
+      "year_ref": 2025,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 29500,
+      "count": 2,
+      "min_year": 2025,
+      "max_year": 2025,
+      "by_year": {
+        "2025": 28250
+      }
+    },
+    "pora": {
+      "category": "sedan",
+      "year_ref": 2003,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 5200,
+      "count": 2,
+      "min_year": 2002,
+      "max_year": 2003,
+      "by_year": {
+        "2002": 5000,
+        "2003": 5200
+      }
+    }
+  },
+  "Volvo": {
+    "460": {
+      "category": "sedan",
+      "year_ref": 1993,
+      "hp": 250,
+      "cc": 2400,
+      "trans": "automatic",
+      "base": 2200,
+      "count": 3,
+      "min_year": 1993,
+      "max_year": 1994,
+      "by_year": {
+        "1994": 2200,
+        "1993": 2000
+      }
+    },
+    "S80": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 7000,
+      "count": 1,
+      "min_year": 2012,
+      "max_year": 2012,
+      "by_year": {
+        "2012": 7000
+      }
+    },
+    "S90": {
+      "category": "sedan",
+      "year_ref": 2018,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 23500,
+      "count": 1,
+      "min_year": 2018,
+      "max_year": 2018,
+      "by_year": {
+        "2018": 23500
+      }
+    },
+    "XC60": {
+      "category": "sedan",
+      "year_ref": 2012,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 10500,
+      "count": 2,
+      "min_year": 2012,
+      "max_year": 2012,
+      "by_year": {
+        "2012": 10500
+      }
+    },
+    "XC90": {
+      "category": "sedan",
+      "year_ref": 2021,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 37000,
+      "count": 1,
+      "min_year": 2021,
+      "max_year": 2021,
+      "by_year": {
+        "2021": 37000
+      }
+    }
+  },
+  "ZOTYE": {
+    "geep": {
+      "category": "sedan",
+      "year_ref": 2009,
+      "hp": 200,
+      "cc": 1600,
+      "trans": "automatic",
+      "base": 4200,
+      "count": 4,
+      "min_year": 2008,
+      "max_year": 2010,
+      "by_year": {
+        "2010": 4500,
+        "2009": 3200,
+        "2008": 3200
+      }
+    }
+  }
+}

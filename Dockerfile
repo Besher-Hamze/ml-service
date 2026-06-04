@@ -5,7 +5,8 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY data/ ./data/
+COPY data/car.json data/market.json data/model.json ./data/
+COPY data/dataset_loader.py ./data/
 COPY scripts/ ./scripts/
 COPY app/ ./app/
 

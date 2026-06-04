@@ -1,4 +1,5 @@
 from pathlib import Path
+from typing import Optional
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -12,8 +13,8 @@ STATIC_DIR = Path(__file__).resolve().parent / "static"
 
 app = FastAPI(
     title="Car Price Evaluation - Aleppo",
-    description="تقييم أسعار السيارات في سوق حلب باستخدام Random Forest",
-    version="1.0.0",
+    description="تقييم أسعار السيارات في سوق حلب",
+    version="1.1.0",
 )
 
 app.add_middleware(
@@ -28,26 +29,34 @@ if STATIC_DIR.exists():
 
 
 class CarEvaluateRequest(BaseModel):
+    """مطابق لحقول Car في الباك إند."""
     brand: str
     model: str
     year: int
     price: float = Field(gt=0)
-    mileage: float | None = None
-    category: str | None = None
-    engineType: str | None = None
-    engineDisplacement: float | None = None
-    horsepower: float | None = None
-    transmission: str | None = None
-    driveType: str | None = None
-    seatingCapacity: float | None = None
-    motorCondition: str | None = None
-    electricalCondition: str | None = None
-    oilCondition: str | None = None
-    chassisCondition: str | None = None
-    tiresCondition: str | None = None
-    engineSmokeLevel: str | None = None
-    accidentHistoryType: str | None = None
-    accidentHistoryLevel: str | None = None
+    mileage: Optional[float] = None
+    category: Optional[str] = None
+    engineType: Optional[str] = None
+    engineDisplacement: Optional[float] = None
+    horsepower: Optional[float] = None
+    cylinders: Optional[float] = None
+    torque: Optional[float] = None
+    transmission: Optional[str] = None
+    driveType: Optional[str] = None
+    seatingCapacity: Optional[float] = None
+    color: Optional[str] = None
+    interiorColor: Optional[str] = None
+    imported: Optional[str] = None
+    condition: Optional[str] = None
+    motorCondition: Optional[str] = None
+    electricalCondition: Optional[str] = None
+    oilCondition: Optional[str] = None
+    chassisCondition: Optional[str] = None
+    tiresCondition: Optional[str] = None
+    engineSmokeLevel: Optional[str] = None
+    isEngineSmoking: Optional[bool] = None
+    accidentHistoryType: Optional[str] = None
+    accidentHistoryLevel: Optional[str] = None
     currency: str = "USD"
 
 
@@ -61,7 +70,6 @@ def startup():
 
 @app.get("/")
 def gui():
-    """واجهة عربية لاختبار النموذج."""
     index = STATIC_DIR / "index.html"
     if not index.exists():
         raise HTTPException(status_code=404, detail="الواجهة غير موجودة")
@@ -70,22 +78,8 @@ def gui():
 
 @app.get("/catalog")
 def catalog():
-    """كتalog الماركات والموديلات لسوق حلب."""
-    from data.aleppo_catalog import CAR_CATALOG
-
-    out = {}
-    for brand, models in CAR_CATALOG.items():
-        out[brand] = {}
-        for model, spec in models.items():
-            out[brand][model] = {
-                "category": spec["category"],
-                "year_ref": spec["year_ref"],
-                "hp": spec["hp"],
-                "cc": spec["cc"],
-                "trans": spec["trans"],
-                "base": spec["base"],
-            }
-    return out
+    from data.aleppo_catalog import get_car_catalog
+    return get_car_catalog()
 
 
 @app.get("/health")
@@ -100,7 +94,7 @@ def health():
 @app.post("/evaluate")
 def evaluate(req: CarEvaluateRequest):
     try:
-        return evaluate_price(req.model_dump())
+        return evaluate_price(req.model_dump(exclude_none=True))
     except FileNotFoundError:
         raise HTTPException(status_code=503, detail="النموذج غير مدرب بعد")
     except ValueError as e:

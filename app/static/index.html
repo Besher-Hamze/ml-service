@@ -336,6 +336,28 @@
     @keyframes spin { to { transform: rotate(360deg); } }
 
     .section-full { grid-column: 1 / -1; }
+
+    .catalog-meta {
+      display: block;
+      margin-top: .5rem;
+      font-size: .8rem;
+      color: var(--muted);
+    }
+
+    .catalog-hint {
+      margin-top: .5rem;
+      padding: .6rem .85rem;
+      background: rgba(59, 130, 246, .1);
+      border: 1px solid rgba(59, 130, 246, .25);
+      border-radius: 10px;
+      font-size: .82rem;
+      color: #93c5fd;
+      line-height: 1.5;
+    }
+
+    .search-input {
+      margin-bottom: .4rem;
+    }
   </style>
 </head>
 <body>
@@ -356,19 +378,22 @@
           <h2><span>📋</span> معلومات السيارة</h2>
 
           <div class="field">
-            <label for="brand">الماركة</label>
+            <label for="brand">الماركة <span class="catalog-meta" id="catalogMeta"></span></label>
+            <input type="search" id="brandSearch" class="search-input" placeholder="ابحث عن ماركة..." autocomplete="off" />
             <select id="brand" required></select>
           </div>
 
           <div class="field">
             <label for="model">الموديل</label>
+            <input type="search" id="modelSearch" class="search-input" placeholder="ابحث عن موديل..." autocomplete="off" />
             <select id="model" required></select>
+            <div class="catalog-hint" id="catalogHint" hidden></div>
           </div>
 
           <div class="row-2">
             <div class="field">
               <label for="year">سنة الصنع</label>
-              <input type="number" id="year" min="2000" max="2025" value="2018" required />
+              <input type="number" id="year" min="1980" max="2026" value="2018" required />
             </div>
             <div class="field">
               <label for="price">السعر المطلوب ($)</label>
@@ -449,9 +474,9 @@
 
           <div class="grid">
             <div class="field">
-              <label for="motorCondition">حالة المحرك</label>
+              <label for="motorCondition">حالة المحرك <strong style="color:#f59e0b">(تأثير عالي على السعر)</strong></label>
               <input type="range" id="motorCondition" min="0" max="100" step="10" value="70" />
-              <div class="range-row"><span>سيء</span><span class="range-val" data-for="motorCondition">70</span><span>ممتاز</span></div>
+              <div class="range-row"><span>غاطل</span><span class="range-val" data-for="motorCondition">70</span><span>ممتاز</span></div>
             </div>
 
             <div class="field">
@@ -496,7 +521,7 @@
           </div>
 
           <button type="submit" class="btn" id="submitBtn">🔍 قيّم السعر</button>
-          <button type="button" class="btn btn-secondary" id="fillSample">📌 مثال: Toyota Corolla 2018</button>
+          <button type="button" class="btn btn-secondary" id="fillSample">📌 مثال: TOYOTA Corolla (من السوق)</button>
         </div>
       </div>
     </form>
@@ -587,37 +612,136 @@
       }
     }
 
+    function sortedKeys(obj) {
+      return Object.keys(obj).sort((a, b) => a.localeCompare(b, 'ar', { sensitivity: 'base' }));
+    }
+
+    function escapeHtml(s) {
+      return String(s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function renderBrands(filter = '') {
+      const brandSel = document.getElementById('brand');
+      const q = filter.trim().toLowerCase();
+      const brands = sortedKeys(catalog).filter(
+        (b) => !q || b.toLowerCase().includes(q),
+      );
+      if (!brands.length) {
+        brandSel.innerHTML = '<option value="">— لا توجد نتائج —</option>';
+        return;
+      }
+      brandSel.innerHTML = brands
+        .map((b) => `<option value="${escapeHtml(b)}">${escapeHtml(b)}</option>`)
+        .join('');
+    }
+
+    function renderModels(brand, filter = '') {
+      const modelSel = document.getElementById('model');
+      const models = catalog[brand] || {};
+      const q = filter.trim().toLowerCase();
+      const names = sortedKeys(models).filter(
+        (m) => !q || m.toLowerCase().includes(q),
+      );
+      if (!names.length) {
+        modelSel.innerHTML = '<option value="">— لا توجد نتائج —</option>';
+        return;
+      }
+      modelSel.innerHTML = names
+        .map((m) => {
+          const spec = models[m];
+          const price = spec.base ? `$${spec.base.toLocaleString('en-US')}` : '—';
+          const count = spec.count ? ` · ${spec.count} إعلان` : '';
+          return `<option value="${escapeHtml(m)}">${escapeHtml(m)} — ${price}${count}</option>`;
+        })
+        .join('');
+    }
+
     async function loadCatalog() {
       const res = await fetch(`${API_BASE}/catalog`);
+      if (!res.ok) throw new Error('تعذّر تحميل كتalog السوق');
       catalog = await res.json();
-      const brandSel = document.getElementById('brand');
-      brandSel.innerHTML = Object.keys(catalog).map(b =>
-        `<option value="${b}">${b}</option>`
-      ).join('');
+
+      const brands = sortedKeys(catalog);
+      let totalModels = 0;
+      brands.forEach((b) => { totalModels += Object.keys(catalog[b]).length; });
+
+      document.getElementById('catalogMeta').textContent =
+        `(${brands.length} ماركة · ${totalModels} موديل — بيانات حقيقية)`;
+
+      renderBrands();
       updateModels();
     }
 
     function updateModels() {
       const brand = document.getElementById('brand').value;
-      const modelSel = document.getElementById('model');
-      const models = catalog[brand] || {};
-      modelSel.innerHTML = Object.keys(models).map(m =>
-        `<option value="${m}">${m}</option>`
-      ).join('');
+      const modelFilter = document.getElementById('modelSearch').value;
+      renderModels(brand, modelFilter);
       fillFromCatalog();
+    }
+
+    function getYearMarketPrice(spec, year) {
+      if (!spec?.by_year) return spec?.base || null;
+      const y = String(year);
+      if (spec.by_year[y] !== undefined) return spec.by_year[y];
+      const years = Object.keys(spec.by_year).map(Number).sort((a, b) => a - b);
+      if (!years.length) return spec.base;
+      const lower = years.filter((yr) => yr <= year);
+      const upper = years.filter((yr) => yr >= year);
+      if (lower.length && upper.length) {
+        const y1 = Math.max(...lower);
+        const y2 = Math.min(...upper);
+        const p1 = spec.by_year[String(y1)];
+        const p2 = spec.by_year[String(y2)];
+        if (y1 === y2) return p1;
+        const t = (year - y1) / (y2 - y1);
+        return Math.round(p1 + t * (p2 - p1));
+      }
+      if (lower.length) {
+        const y1 = Math.max(...lower);
+        return Math.max(500, spec.by_year[String(y1)] - (y1 - year) * 120);
+      }
+      const y2 = Math.min(...upper);
+      return spec.by_year[String(y2)] + (year - y2) * 100;
     }
 
     function fillFromCatalog() {
       const brand = document.getElementById('brand').value;
       const model = document.getElementById('model').value;
       const spec = catalog[brand]?.[model];
-      if (!spec) return;
-      document.getElementById('year').value = spec.year_ref;
-      document.getElementById('category').value = spec.category;
-      document.getElementById('engineDisplacement').value = spec.cc;
-      document.getElementById('horsepower').value = spec.hp;
-      document.getElementById('transmission').value = spec.trans;
-      document.getElementById('price').value = spec.base;
+      const hint = document.getElementById('catalogHint');
+      const yearInput = document.getElementById('year');
+
+      if (!spec) {
+        hint.hidden = true;
+        return;
+      }
+
+      const catAr = { sedan: 'سيدان', suv: 'دفع رباعي', hatchback: 'هاتشباك', pickup: 'بيك أب' };
+      if (!yearInput.dataset.userEdited) {
+        yearInput.value = spec.year_ref;
+      }
+      const year = +yearInput.value;
+      const yearPrice = getYearMarketPrice(spec, year);
+
+      document.getElementById('category').value = spec.category || 'sedan';
+      document.getElementById('engineDisplacement').value = spec.cc || 1600;
+      document.getElementById('horsepower').value = spec.hp || 120;
+      document.getElementById('transmission').value = spec.trans || 'automatic';
+      if (!document.getElementById('price').dataset.userEdited) {
+        document.getElementById('price').value = yearPrice || spec.base || 10000;
+      }
+
+      const hasExactYear = spec.by_year && spec.by_year[String(year)] !== undefined;
+      hint.hidden = false;
+      hint.innerHTML =
+        `📊 سوق حلب — ${hasExactYear ? 'سعر هذه السنة' : 'تقدير لهذه السنة'}: ` +
+        `<strong>$${(yearPrice || spec.base || 0).toLocaleString('en-US')}</strong>` +
+        (spec.count ? ` · ${spec.count} إعلان للموديل` : '') +
+        (spec.min_year ? ` · سنوات بالسوق: ${spec.min_year}–${spec.max_year}` : '') +
+        ` · ${catAr[spec.category] || spec.category}`;
     }
 
     document.querySelectorAll('input[type=range]').forEach(slider => {
@@ -627,15 +751,45 @@
       });
     });
 
-    document.getElementById('brand').addEventListener('change', updateModels);
-    document.getElementById('model').addEventListener('change', fillFromCatalog);
+    document.getElementById('brand').addEventListener('change', () => {
+      document.getElementById('modelSearch').value = '';
+      updateModels();
+    });
+    document.getElementById('model').addEventListener('change', () => {
+      document.getElementById('year').dataset.userEdited = '';
+      document.getElementById('price').dataset.userEdited = '';
+      fillFromCatalog();
+    });
+
+    document.getElementById('year').addEventListener('input', () => {
+      document.getElementById('year').dataset.userEdited = '1';
+      fillFromCatalog();
+    });
+
+    document.getElementById('price').addEventListener('input', () => {
+      document.getElementById('price').dataset.userEdited = '1';
+    });
+
+    document.getElementById('brandSearch').addEventListener('input', (e) => {
+      renderBrands(e.target.value);
+      updateModels();
+    });
+
+    document.getElementById('modelSearch').addEventListener('input', () => {
+      updateModels();
+    });
 
     document.getElementById('fillSample').addEventListener('click', () => {
-      document.getElementById('brand').value = 'Toyota';
+      document.getElementById('brandSearch').value = '';
+      document.getElementById('modelSearch').value = '';
+      renderBrands();
+      const brand = catalog['TOYOTA'] ? 'TOYOTA' : sortedKeys(catalog)[0];
+      document.getElementById('brand').value = brand;
       updateModels();
-      document.getElementById('model').value = 'Corolla';
+      const models = catalog[brand] || {};
+      const model = models['Corolla'] ? 'Corolla' : sortedKeys(models)[0];
+      document.getElementById('model').value = model;
       fillFromCatalog();
-      document.getElementById('price').value = 15000;
       document.getElementById('mileage').value = 90000;
       document.getElementById('motorCondition').value = 80;
       document.querySelector('[data-for="motorCondition"]').textContent = '80';
@@ -683,6 +837,7 @@
         engineSmokeLevel: document.getElementById('engineSmoke').checked ? '100' : '0',
         accidentHistoryType: document.getElementById('accidentHistoryType').value,
         accidentHistoryLevel: document.getElementById('accidentHistoryType').value === 'none' ? '100' : '50',
+        isEngineSmoking: document.getElementById('engineSmoke').checked,
         currency: 'USD',
       };
 
@@ -705,7 +860,8 @@
         const verdict = document.getElementById('verdict');
         verdict.className = 'verdict ' + data.label;
         document.getElementById('verdictAr').textContent = data.labelAr;
-        document.getElementById('verdictEn').textContent = data.label;
+        document.getElementById('verdictEn').textContent =
+          (data.priceSource ? data.priceSource + ' · ' : '') + data.label;
 
         document.getElementById('statListed').textContent = fmt(data.listedPrice);
         document.getElementById('statFair').textContent = fmt(data.fairPrice);
@@ -732,7 +888,7 @@
     });
 
     checkHealth();
-    loadCatalog();
+    loadCatalog().catch((err) => showError(err.message));
   </script>
 </body>
 </html>

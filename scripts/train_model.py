@@ -18,26 +18,28 @@ from sklearn.preprocessing import OneHotEncoder
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from data.aleppo_catalog import PRICE_LABELS  # noqa: E402
+from data.dataset_loader import PRICE_LABELS  # noqa: E402
 
 FEATURE_COLS = [
-    "brand", "model", "year", "mileage", "category",
-    "engineType", "engineDisplacement", "horsepower",
+    "brand", "model", "year", "carAge", "logMileage", "mileage", "category",
+    "engineType", "engineDisplacement", "horsepower", "cylinders",
     "transmission", "driveType", "seatingCapacity",
+    "imported", "color", "conditionScore",
     "motorCondition", "electricalCondition", "oilCondition",
     "chassisCondition", "tiresCondition", "engineSmokeLevel",
     "accidentHistoryType", "accidentHistoryLevel",
 ]
 
 NUMERIC_COLS = [
-    "year", "mileage", "engineDisplacement", "horsepower", "seatingCapacity",
+    "year", "carAge", "logMileage", "mileage", "engineDisplacement", "horsepower",
+    "cylinders", "seatingCapacity", "conditionScore",
     "motorCondition", "electricalCondition", "oilCondition",
     "chassisCondition", "tiresCondition", "engineSmokeLevel", "accidentHistoryLevel",
 ]
 
 CATEGORICAL_COLS = [
     "brand", "model", "category", "engineType", "transmission",
-    "driveType", "accidentHistoryType",
+    "driveType", "accidentHistoryType", "imported", "color",
 ]
 
 
@@ -65,7 +67,8 @@ def main():
 
     df = prepare_df(pd.read_csv(csv_path))
     X = df[FEATURE_COLS]
-    y = df["fairPrice"]
+    # التدريب على السعر الفعلي من السوق الحقيقي
+    y = df["price"]
 
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=0.2, random_state=42,
@@ -81,9 +84,9 @@ def main():
     model = Pipeline([
         ("prep", preprocessor),
         ("reg", RandomForestRegressor(
-            n_estimators=200,
-            max_depth=18,
-            min_samples_leaf=3,
+            n_estimators=300,
+            max_depth=22,
+            min_samples_leaf=2,
             random_state=42,
             n_jobs=-1,
         )),
