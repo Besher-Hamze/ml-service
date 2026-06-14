@@ -6,6 +6,7 @@ import pandas as pd
 from app.features import FEATURE_COLS, build_evaluation, normalize_input
 from data.condition_adjust import adjust_fair_price_for_specs
 from data.market_stats import lookup_market_price
+from data.price_nudges import apply_light_mileage_nudge, dampen_cylinders_effect
 
 ROOT = Path(__file__).resolve().parents[1]
 MODEL_PATH = ROOT / "models" / "price_model.joblib"
@@ -43,20 +44,32 @@ def predict_fair_price(car_data: dict) -> tuple[float, str]:
     mileage = car_data.get("mileage")
     mileage_f = float(mileage) if mileage is not None else None
 
-    market_price, source, count = lookup_market_price(brand, model, year, mileage_f)
+    # السوق: بدون مسافة أولاً (تأثير المسافة خفيف لاحقاً)
+    market_price, source, count = lookup_market_price(brand, model, year, None)
 
-    ml_price = predict_ml_price(car_data)
+    # للنموذج: تجاهل تأثير السلندرات والمسافة الفعلية
+    ml_input = dict(car_data)
+    ml_input["cylinders"] = 4
+    ml_input["mileage"] = 80000
+    ml_input["logMileage"] = __import__("math").log1p(80000)
+    ml_price = predict_ml_price(ml_input)
+
+    def finalize(base: float, src: str) -> tuple[float, str]:
+        adjusted = adjust_fair_price_for_specs(base, car_data)
+        adjusted = dampen_cylinders_effect(adjusted, car_data)
+        adjusted = apply_light_mileage_nudge(adjusted, year, mileage_f)
+        return adjusted, src
 
     if market_price > 0:
         if source in ("market_exact", "market_exact_neighbors", "market_interpolated"):
-            base, src = market_price, source
-        elif source in ("market_extrapolated_older", "market_extrapolated_newer"):
-            base, src = market_price * 0.75 + ml_price * 0.25, f"blend_{source}"
-        else:
-            base, src = market_price * 0.6 + ml_price * 0.4, f"blend_{source}"
-        return adjust_fair_price_for_specs(base, car_data), f"{src}_adjusted"
+            return finalize(market_price, f"{source}_adjusted")
+        if source in ("market_extrapolated_older", "market_extrapolated_newer"):
+            blended = market_price * 0.75 + ml_price * 0.25
+            return finalize(blended, f"blend_{source}_adjusted")
+        blended = market_price * 0.6 + ml_price * 0.4
+        return finalize(blended, f"blend_{source}_adjusted")
 
-    return adjust_fair_price_for_specs(ml_price, car_data), "ml_adjusted"
+    return finalize(ml_price, "ml_adjusted")
 
 
 def evaluate_price(car_data: dict) -> dict:

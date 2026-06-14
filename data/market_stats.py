@@ -122,10 +122,10 @@ def _mileage_adjustment(year: int, mileage: float | None, base_price: float) -> 
     expected = age * KM_PER_YEAR
     ratio = mileage / expected
     if ratio > 1.35:
-        penalty = min(0.25, (ratio - 1.35) * 0.15)
+        penalty = min(0.08, (ratio - 1.35) * 0.05)
         return base_price * (1 - penalty)
     if ratio < 0.65:
-        bonus = min(0.08, (0.65 - ratio) * 0.1)
+        bonus = min(0.03, (0.65 - ratio) * 0.04)
         return base_price * (1 + bonus)
     return base_price
 
