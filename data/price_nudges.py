@@ -2,18 +2,17 @@
 from __future__ import annotations
 
 
-def apply_light_mileage_nudge(base_price: float, year: int, mileage: float | None) -> float:
-    """تأثير خفيف جداً للمسافة المقطوعة على السعر العادل."""
+def apply_light_mileage_nudge(base_price: float, mileage: float | None) -> float:
+    """تأثير خفيف جداً للمسافة — حدود مطلقة بدون ربط بسنة الصنع."""
     if not mileage or mileage <= 0 or base_price <= 0:
         return base_price
-    age = max(1, 2026 - int(year))
-    expected = age * 12_000
-    ratio = mileage / expected
-    if ratio > 1.5:
-        penalty = min(0.06, (ratio - 1.5) * 0.04)
+    # مسافة عالية جداً → خصم بسيط (حد أقصى ~6%)
+    if mileage >= 200_000:
+        penalty = min(0.06, (mileage - 200_000) / 500_000 * 0.06)
         return base_price * (1 - penalty)
-    if ratio < 0.5:
-        bonus = min(0.03, (0.5 - ratio) * 0.04)
+    # مسافة منخفضة → مكافأة بسيطة (حد أقصى ~3%)
+    if mileage <= 60_000:
+        bonus = min(0.03, (60_000 - mileage) / 60_000 * 0.03)
         return base_price * (1 + bonus)
     return base_price
 

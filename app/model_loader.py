@@ -57,7 +57,7 @@ def predict_fair_price(car_data: dict) -> tuple[float, str]:
     def finalize(base: float, src: str) -> tuple[float, str]:
         adjusted = adjust_fair_price_for_specs(base, car_data)
         adjusted = dampen_cylinders_effect(adjusted, car_data)
-        adjusted = apply_light_mileage_nudge(adjusted, year, mileage_f)
+        adjusted = apply_light_mileage_nudge(adjusted, mileage_f)
         return adjusted, src
 
     if market_price > 0:
