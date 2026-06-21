@@ -6,7 +6,11 @@ import pandas as pd
 from app.features import FEATURE_COLS, build_evaluation, normalize_input
 from data.condition_adjust import adjust_fair_price_for_specs
 from data.market_stats import lookup_market_price
-from data.price_nudges import apply_light_mileage_nudge, dampen_cylinders_effect
+from data.price_nudges import (
+    apply_light_mileage_nudge,
+    apply_vehicle_spec_nudges,
+    dampen_cylinders_effect,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 MODEL_PATH = ROOT / "models" / "price_model.joblib"
@@ -49,14 +53,15 @@ def predict_fair_price(car_data: dict) -> tuple[float, str]:
 
     # للنموذج: تجاهل تأثير السلندرات والمسافة الفعلية
     ml_input = dict(car_data)
-    ml_input["cylinders"] = 4
-    ml_input["mileage"] = 80000
-    ml_input["logMileage"] = __import__("math").log1p(80000)
+    # ml_input["cylinders"] = 4
+    # ml_input["mileage"] = 80000
+    # ml_input["logMileage"] = __import__("math").log1p(80000)
     ml_price = predict_ml_price(ml_input)
 
     def finalize(base: float, src: str) -> tuple[float, str]:
         adjusted = adjust_fair_price_for_specs(base, car_data)
         adjusted = dampen_cylinders_effect(adjusted, car_data)
+        adjusted = apply_vehicle_spec_nudges(adjusted, car_data)
         adjusted = apply_light_mileage_nudge(adjusted, mileage_f)
         return adjusted, src
 
